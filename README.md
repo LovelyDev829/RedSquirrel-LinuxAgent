@@ -1,1 +1,0 @@
-# RedSquirrel-LinuxAgent

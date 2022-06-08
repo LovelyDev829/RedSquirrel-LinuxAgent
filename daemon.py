@@ -32,52 +32,82 @@
 # sudo pip install --upgrade psutil
 # # terminal not opening
 # sudo apt-get --reinstall install python3-minimal
+## make standalone exe file
+# sudo apt-get install libpython3.10-dev
+# pyinstaller --onefile daemon.py
 from gettext import install
+from ipaddress import ip_address
 import pathlib
 import socketserver
-import sys, os, time, psutil, signal, threading, socket, platform, subprocess, shlex
-import uuid, grp, json, logging, pwd, re, struct, getpass, logging.handlers
+import sys
+import os
+import time
+import psutil
+import signal
+import threading
+import socket
+import platform
+import subprocess
+import shlex
+import uuid
+import grp
+import json
+import logging
+import pwd
+import re
+import struct
+import getpass
+import logging.handlers
 from colorama import Fore, Back, Style
+
+
 class Daemon(object):
-    """
-    Usage: - create your own a subclass Daemon class and override the run() method. Run() will be periodically the calling inside the infinite run loop
-           - you can receive reload signal from self.isReloadSignal and then you have to set back self.isReloadSignal = False
-    """
-    systemInfo = {}
-    path = "/home/lovely/Documents/work/temp/outputJsonFiles"
-    syslogPath = "/home/lovely/Documents/work/temp/outputJsonFiles/syslogs"
-    updatedSyslogPath = "/home/lovely/Documents/work/temp/outputJsonFiles/updatedSyslogs"
-    logFilePath = [
-        "/var/log/alternatives.log",
-        "/var/log/apport.log",
-        # "/var/log/auth.log",
-        # "/var/log/bootstrap.log",
-        # "/var/log/dmesg",
-        # "/var/log/dpkg.log",
-        # "/var/log/fontconfig.log",
-        # "/var/log/gpu-manager.log",
-        # "/var/log/kern.log",
-        # "/var/log/syslog",
-        # "/var/log/ubuntu-advantage-timer.log",
-        # "/var/log/ufw.log",
-        # "/home/lovely/Documents/somewhere/custom.log",
-        "/home/lovely/Documents/something.log"
-    ]
     def __init__(self, stdin='/dev/null', stdout='/dev/null', stderr='/dev/null'):
+        """
+        Usage: - create your own a subclass Daemon class and override the run() method. Run() will be periodically the calling inside the infinite run loop
+            - you can receive reload signal from self.isReloadSignal and then you have to set back self.isReloadSignal = False
+        """
+        self.systemInfo = {}
+        self.path = os.getcwd() + "/outputJsonFiles"
+        self.syslogPath = self.path + "/syslogs"
+        self.updatedSyslogPath = self.path + "/updatedSyslogs"
+        self.logFilePath = [
+            "/var/log/alternatives.log",
+            "/var/log/apport.log",
+            # "/var/log/auth.log",
+            # "/var/log/bootstrap.log",
+            # "/var/log/dmesg",
+            # "/var/log/dpkg.log",
+            # "/var/log/fontconfig.log",
+            # "/var/log/gpu-manager.log",
+            # "/var/log/kern.log",
+            # "/var/log/syslog",
+            # "/var/log/ubuntu-advantage-timer.log",
+            # "/var/log/ufw.log",
+            # "/home/lovely/Documents/somewhere/custom.log",
+            "/home/lovely/Documents/something.log"
+        ]
         self.ver = 0.1  # version
-        self.pauseRunLoop = 0    # 0 means none pause between the calling of run() method.
-        self.restartPause = 1    # 0 means without a pause between stop and start during the restart of the daemon
-        self.waitToHardKill = 3  # when terminate a process, wait until kill the process with SIGTERM signal
+        # 0 means none pause between the calling of run() method.
+        self.pauseRunLoop = 0
+        # 0 means without a pause between stop and start during the restart of the daemon
+        self.restartPause = 1
+        # when terminate a process, wait until kill the process with SIGTERM signal
+        self.waitToHardKill = 3
         self.isReloadSignal = False
         self._canDaemonRun = True
         self.processName = os.path.basename(sys.argv[0])
         self.stdin = stdin
         self.stdout = stdout
         self.stderr = stderr
+        self.makeDir()
+
     def _sigterm_handler(self, signum, frame):
         self._canDaemonRun = False
+
     def _reload_handler(self, signum, frame):
         self.isReloadSignal = True
+
     def _makeDaemon(self):
         """
         Make a daemon, do double-fork magic.
@@ -86,6 +116,7 @@ class Daemon(object):
             pid = os.fork()
             if pid > 0:
                 # Exit first parent.
+                print(" Exit first parent.")
                 sys.exit(0)
         except OSError as e:
             m = f"Fork #1 failed: {e}"
@@ -100,6 +131,7 @@ class Daemon(object):
             pid = os.fork()
             if pid > 0:
                 # Exit from second parent.
+                print(" Exit from second parent.")
                 sys.exit(0)
         except OSError as e:
             m = f"Fork #2 failed: {e}"
@@ -116,6 +148,7 @@ class Daemon(object):
         os.dup2(si.fileno(), sys.stdin.fileno())
         os.dup2(so.fileno(), sys.stdout.fileno())
         os.dup2(se.fileno(), sys.stderr.fileno())
+
     def _getProces(self):
         procs = []
         for p in psutil.process_iter():
@@ -124,6 +157,7 @@ class Daemon(object):
                 if p.pid != os.getpid():
                     procs.append(p)
         return procs
+
     def getUidInfo(self):
         print(Fore.GREEN, "----------------UID Info---------------------|", Fore.WHITE)
         HostName = socket.gethostname()
@@ -140,6 +174,7 @@ class Daemon(object):
         uidInfo["OSVersion"] = OsName + " " + OsVersion
         # Physicalinfo
         self.systemInfo["UIDInfo"] = uidInfo
+
     def getBiosInfo(self):
         print(Fore.GREEN, "----------------BIOS Info--------------------|", Fore.WHITE)
         # BIOS info
@@ -150,19 +185,24 @@ class Daemon(object):
         print("Architecture     :", platform.machine())
         print("Hostname         :", socket.gethostname())
         print("IP-Address       :", socket.gethostbyname(socket.gethostname()))
-        print("MAC-Address      :", ':'.join(re.findall('..', '%012x' % uuid.getnode())))
+        print("MAC-Address      :",
+              ':'.join(re.findall('..', '%012x' % uuid.getnode())))
         print("Processor        :", platform.processor())
-        print("RAM              :", str(round(psutil.virtual_memory().total / (1024.0 **3)))+" GB")
+        print("RAM              :", str(
+            round(psutil.virtual_memory().total / (1024.0 ** 3)))+" GB")
         biosInfo['platform'] = platform.system()
         biosInfo['platform-release'] = platform.release()
         biosInfo['platform-version'] = platform.version()
         biosInfo['architecture'] = platform.machine()
         biosInfo['hostname'] = socket.gethostname()
         biosInfo['ip-address'] = socket.gethostbyname(socket.gethostname())
-        biosInfo['mac-address'] = ':'.join(re.findall('..', '%012x' % uuid.getnode()))
+        biosInfo['mac-address'] = ':'.join(re.findall('..',
+                                           '%012x' % uuid.getnode()))
         biosInfo['processor'] = platform.processor()
-        biosInfo['ram'] = str(round(psutil.virtual_memory().total / (1024.0 **3)))+" GB"
+        biosInfo['ram'] = str(
+            round(psutil.virtual_memory().total / (1024.0 ** 3)))+" GB"
         self.systemInfo["BIOSInfo"] = biosInfo
+
     def getDefaultIPGateway(self):
         print(Fore.GREEN, "----------------Default IP Gateway-----------|", Fore.WHITE)
         with open("/proc/net/route") as fh:
@@ -170,18 +210,22 @@ class Daemon(object):
                 fields = line.strip().split()
                 if fields[1] != '00000000' or not int(fields[3], 16) & 2:
                     continue
-                print("Default IP Gateway : " + socket.inet_ntoa(struct.pack("<L", int(fields[2], 16))))
-                defaultIpGateway = socket.inet_ntoa(struct.pack("<L", int(fields[2], 16)))
+                print("Default IP Gateway : " +
+                      socket.inet_ntoa(struct.pack("<L", int(fields[2], 16))))
+                defaultIpGateway = socket.inet_ntoa(
+                    struct.pack("<L", int(fields[2], 16)))
         self.systemInfo["DefaultIPGateway"] = defaultIpGateway
+
     def getServiceInfo(self):
         print(Fore.GREEN, "----------------Service Info-----------------|", Fore.WHITE)
         serviceInfo = {}
         serviceInfo["List"] = []
+
         def show_services():
             return [(
                 psutil.Process(p).name(),
                 psutil.Process(p).status(),
-                )  for p in psutil.pids()]
+            ) for p in psutil.pids()]
         i = 0
         for service in show_services():
             i = i+1
@@ -193,11 +237,13 @@ class Daemon(object):
         print("Service Count : ", i)
         serviceInfo["Count"] = i
         self.systemInfo["ServiceInfo"] = serviceInfo
+
     def getActiveTcpInfo(self):
         print(Fore.GREEN, "----------------Active TCP Info--------------|", Fore.WHITE)
         activeTcpInfo = {}
         # Active TCP info
         # self.systemInfo["ActiveSystemInfo"] = activeTcpInfo
+
     def getProcessList(self):
         print(Fore.GREEN, "----------------Process List-----------------|", Fore.WHITE)
         processInfo = {}
@@ -213,43 +259,54 @@ class Daemon(object):
         print("ProcessCount : ", i)
         processInfo["Count"] = i
         self.systemInfo["ProcessInfo"] = processInfo
+
     def getUserAccountsInfo(self):
         print(Fore.GREEN, "----------------User Accounts Info-----------|", Fore.WHITE)
         # for p in pwd.getpwall():
         #     print (p[0], "------", grp.getgrgid(p[3])[0])
         print("User Name : ", getpass.getuser())
         self.systemInfo["UserName"] = getpass.getuser()
+
     def getInstalledSoftwareInfo(self):
         print(Fore.GREEN, "----------------Installed Sofrware Info------|", Fore.WHITE)
         installedSoftwareInfo = {}
-        cmd=['apt','list','--installed']
-        software=subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+        cmd = ['apt', 'list', '--installed']
+        software = subprocess.Popen(
+            cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
         stdout, stderr = software.communicate()
         # print(stdout.decode().replace('\t',' '))
-        installedSoftwareInfo["List"] = stdout.decode().replace('\t',' ').split('\n')
-        print("Installed Software Count : ", stdout.decode().replace('\t',' ').count('\n')+1)
-        installedSoftwareInfo["Count"] = stdout.decode().replace('\t',' ').count('\n')+1
+        installedSoftwareInfo["List"] = stdout.decode().replace(
+            '\t', ' ').split('\n')
+        print("Installed Software Count : ",
+              stdout.decode().replace('\t', ' ').count('\n')+1)
+        installedSoftwareInfo["Count"] = stdout.decode().replace(
+            '\t', ' ').count('\n')+1
         self.systemInfo["InstalledSoftwareInfo"] = installedSoftwareInfo
+
     def getFirewallInfo(self):
         print(Fore.GREEN, "----------------Firewall Info----------------|", Fore.WHITE)
         firewallInfo = {}
         # Firewall Info
-        cmd=['sudo','iptables','-S']
-        software=subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+        cmd = ['sudo', 'iptables', '-S']
+        software = subprocess.Popen(
+            cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
         stdout, stderr = software.communicate()
         # print(stdout.decode().replace('\t',' '))
-        firewallInfo["List"] = stdout.decode().replace('\t',' ').split('\n')
-        firewallInfo["Count"] = stdout.decode().replace('\t',' ').count('\n')+1
-        print("Firewall Count : ", stdout.decode().replace('\t',' ').count('\n')+1)
+        firewallInfo["List"] = stdout.decode().replace('\t', ' ').split('\n')
+        firewallInfo["Count"] = stdout.decode().replace(
+            '\t', ' ').count('\n')+1
+        print("Firewall Count : ", stdout.decode().replace(
+            '\t', ' ').count('\n')+1)
         self.systemInfo["FirewallInfo"] = firewallInfo
+
     def getSystemInfo(self):
         # threading.Timer(4.0, self.getSystemInfo).start()
         print(Fore.YELLOW, "---------------------------------------------|", Fore.WHITE)
         self.getUidInfo()
         self.getBiosInfo()
-        self.getDefaultIPGateway()
+        # self.getDefaultIPGateway()
         # self.getServiceInfo()
-        self.getActiveTcpInfo()
+        # self.getActiveTcpInfo()
         self.getProcessList()
         self.getUserAccountsInfo()
         self.getInstalledSoftwareInfo()
@@ -257,31 +314,35 @@ class Daemon(object):
         file = self.path + "/SystemInfo.json"
         with open(file, 'w', encoding='utf-8') as f:
             json.dump(self.systemInfo, f, ensure_ascii=False, indent=4)
+
     def getSystemLogs(self):
         print(Fore.RED, f"System Event Log", Fore.WHITE)
         tempLog = {}
         # cat /var/log/syslog | grep -w "\[system\]"
-        sysLoG = subprocess.getoutput ('cat /var/log/syslog | grep -w "\[system\]"')
+        sysLoG = subprocess.getoutput(
+            'cat /var/log/syslog | grep -w "\[system\]"')
         print("Syslog Count :", sysLoG.count('\n')+1)
         tempLog["List"] = sysLoG.split('\n')
         tempLog["Count"] = sysLoG.count('\n')+1
         file = self.path + "/EventLog_System.json"
         with open(file, 'w', encoding='utf-8') as f:
             json.dump(tempLog, f, ensure_ascii=False, indent=4)
+
     def getLogs(self, filePath):
         print(Fore.RED, f"Log file from {filePath}", Fore.WHITE)
         tempLog = {}
-        sysLoG = subprocess.getoutput (f'cat {filePath}')
+        sysLoG = subprocess.getoutput(f'cat {filePath}')
         print("Syslog Count :", sysLoG.count('\n')+1)
         tempLog["List"] = sysLoG.split('\n')
         tempLog["Count"] = sysLoG.count('\n')+1
         file = self.syslogPath + '/' + f'Log{filePath}.json'.replace('/', '_')
         with open(file, 'w', encoding='utf-8') as f:
             json.dump(tempLog, f, ensure_ascii=False, indent=4)
+
     def dispCommand(self, cmd):
         print(Fore.GREEN, f"Custom Command \"{cmd}\"", Fore.WHITE)
         tempLog = {}
-        sysLoG = subprocess.getoutput (cmd)
+        sysLoG = subprocess.getoutput(cmd)
         print("Line Count :", sysLoG.count('\n')+1)
         tempLog["Lines"] = sysLoG.split('\n')
         tempLog["Count"] = sysLoG.count('\n')+1
@@ -290,24 +351,26 @@ class Daemon(object):
         file = self.path + '/Custom_Command.json'
         with open(file, 'w', encoding='utf-8') as f:
             json.dump(tempLog, f, ensure_ascii=False, indent=4)
+
     def getEventLogs(self):
         print(Fore.YELLOW, "---------------------------------------------|", Fore.WHITE)
         # https://www.sentinelone.com/blog/how-search-log-files-extract-data/
         self.getSystemLogs()
         for path in self.logFilePath:
             self.getLogs(path)
+
     def makeDir(self):
-        if os.path.isdir(self.path) == False:
+        if not os.path.exists(self.path):
             os.mkdir(self.path)
-        if os.path.isdir(self.syslogPath) == False:
+        if not os.path.exists(self.syslogPath):
             os.mkdir(self.syslogPath)
         # if os.path.isdir(self.updatedSyslogPath) == False:
             # os.mkdir(self.updatedSyslogPath)
+
     def start(self):
         """
         Start daemon.
         """
-        self.makeDir()
         # Handle signals
         signal.signal(signal.SIGINT, self._sigterm_handler)
         signal.signal(signal.SIGTERM, self._sigterm_handler)
@@ -321,19 +384,23 @@ class Daemon(object):
             self.getSystemInfo()
             self.getEventLogs()
             # self.timing()
-            sys.exit(1)
+            # sys.exit(1)
+            return
         else:
             m = f"Start the daemon version {self.ver}"
             print(m)
             self.getSystemInfo()
             self.getEventLogs()
+
         # Daemonize the main process
         self._makeDaemon()
         # Start a infinitive loop that periodically runs run() method
         self._infiniteLoop()
+
     def version(self):
         m = f"The daemon version {self.ver}"
         print(m)
+
     def status(self):
         """
         Get status of the daemon.
@@ -346,6 +413,7 @@ class Daemon(object):
         else:
             m = "The daemon is not running!"
             print(m)
+
     def reload(self):
         """
         Reload the daemon.
@@ -359,11 +427,13 @@ class Daemon(object):
         else:
             m = "The daemon is not running!"
             print(m)
+
     def stop(self):
         """
         Stop the daemon.
         """
         procs = self._getProces()
+
         def on_terminate(process):
             m = f"The daemon process with PID {process.pid} has ended correctly."
             print(m)
@@ -378,6 +448,7 @@ class Daemon(object):
         else:
             m = "Cannot find some daemon process, I will do nothing."
             print(m)
+
     def restart(self):
         """
         Restart the daemon.
@@ -386,6 +457,7 @@ class Daemon(object):
         if self.restartPause:
             time.sleep(self.restartPause)
         self.start()
+
     def _infiniteLoop(self):
         try:
             if self.pauseRunLoop:
@@ -401,43 +473,107 @@ class Daemon(object):
             sys.stderr.write(m)
             sys.exit(1)
     # this method you have to override
+
     def run(self):
-        self.makeDir()
-        cmd = "cd /home/lovely \n \
-               ls"
+        cmd = "cd /home/lovely \n ls"
         self.dispCommand(cmd)
-#----------------------------------------------------------------------------------------------------
+# ----------------------------------------------------------------------------------------------------
 # an example of a custom run method where you can set your useful python code
-class MyDaemon(Daemon):
-    def calc(self):
-        x = 10
-        y = x ** 2
-#----------------------------------------------------------------------------------------------------
+
+
+# ----------------------------------------------------------------------------------------------------
 # the main section
 if __name__ == "__main__":
-    daemon = MyDaemon()
-    usageMessage = f"Usage: {sys.argv[0]} (start|stop|restart|status|reload|version)"
-    if len(sys.argv) == 2:
-        choice = sys.argv[1]
-        if choice == "start":
-            daemon.start()
-        elif choice == "stop":
-            daemon.stop()
-        elif choice == "restart":
-            daemon.restart()
-        elif choice == "status":
-            daemon.status()
-        elif choice == "reload":
-            daemon.reload()
-        elif choice == "version":
-            daemon.version()
-        elif choice == "run":
-            daemon.run()
-        else:
-            print("Unknown command.")
-            print(usageMessage)
-            sys.exit(1)
-        sys.exit(0)
+    daemon = Daemon()
+    # Initialize IP address1 or IP address2
+    if not os.path.exists("outputJsonFiles/IP_addresses.txt"):
+        f = open("outputJsonFiles/IP_addresses.txt", "w+")
+        f.close()
+    ip_textfile = open("outputJsonFiles/IP_addresses.txt", "r")
+    ip_address_list = ip_textfile.readlines()
+    ip_textfile.close()
+    if len(ip_address_list) == 0:
+        ip_address1 = "127.0.0.1"
+        ip_address2 = "127.0.0.2"
+    elif len(ip_address_list) == 1:
+        ip_address1 = ip_address_list[0].strip()
+        ip_address2 = "127.0.0.2"
     else:
-        print(usageMessage)
-        sys.exit(1)
+        ip_address1 = ip_address_list[0].strip()
+        ip_address2 = ip_address_list[1].strip()
+    while True:
+        print("============================")
+        print("| Red Squirrel Agent UI    |")
+        print("+--------------------------+")
+        print("| 1: Start Agent.          |")
+        print("| 2: Stop Agent.           |")
+        print("| 3: Settings.             |")
+        print("| 4: Save and Exit.        |")
+        print("| 5: Exit without Saving.  |")
+        print("+--------------------------+")
+        enterSelection = input(" Enter Selection: ")
+        match enterSelection:
+            case "1":
+                print("[NOTICE] Starting Agent...")
+                daemon.start()
+            case "2":
+                print("[NOTICE] Stopping Agent...")
+                daemon.stop()
+            case "3":
+                while True:
+                    print("+--------------------------+")
+                    print("| Red Squirrel Agent UI    |")
+                    print("+--------------------------+")
+                    print("| 1: Server's IP address   |")
+                    print("| 2: QA IP address         |")
+                    print("| 3: Return                |")
+                    print("+--------------------------+")
+                    settingSelection = input(" Enter Selection: ")
+                    match settingSelection:
+                        case "1":
+                            ip_address1 = input(" Server's IP address : ")
+                        case "2":
+                            ip_address2 = input(" QA IP address : ")
+                        case "3":
+                            break
+                        case _:
+                            print("[ERROR] Invalid input... Try Again...")
+            case "4":
+                print("[NOTICE] Saving and exiting program...")
+                ip_textfile = open("outputJsonFiles/IP_addresses.txt", "w")
+                n = ip_textfile.write(ip_address1 + "\n" + ip_address2)
+                ip_textfile.close()
+                break
+            case "5":
+                print("[NOTICE] Exiting program without saving...")
+                break
+            case _:
+                print("[ERROR] Invalid input... Try Again...")
+                print("ip_address1: ", ip_address1,
+                      "\nip_address2: ", ip_address2)
+
+    # usageMessage = f"Usage: {sys.argv[0]} (start|stop|restart|status|reload|version)"
+    # if len(sys.argv) == 2:
+    #     choice = sys.argv[1]
+    #     if choice == "start":
+    #         daemon.start()
+    #     elif choice == "stop":
+    #         daemon.stop()
+    #     elif choice == "restart":
+    #         daemon.restart()
+    #     elif choice == "status":
+    #         daemon.status()
+    #     elif choice == "reload":
+    #         daemon.reload()
+    #     elif choice == "version":
+    #         daemon.version()
+    #     elif choice == "run":
+    #         daemon.run()
+    #     else:
+    #         print("Unknown command.")
+    #         print(usageMessage)
+    #         sys.exit(1)
+    #     sys.exit(0)
+    # else:
+    #     print(usageMessage)
+    #     sys.exit(1)

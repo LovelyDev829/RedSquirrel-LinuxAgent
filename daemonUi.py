@@ -12,9 +12,12 @@ class MainWindow(QWidget):
         self.myDaemon = MyDaemon()
 
         self.ui.startBtn.clicked.connect(self.startSlot)
+        self.ui.stopBtn.clicked.connect(self.stopSlot)
 
     def startSlot(self):
         self.myDaemon.start()
+    def stopSlot(self):
+        self.myDaemon.stop()
 
 
 if __name__ == '__main__':

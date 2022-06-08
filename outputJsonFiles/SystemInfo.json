@@ -11,11 +11,10 @@
         "architecture": "x86_64",
         "hostname": "ubuntu",
         "ip-address": "127.0.1.1",
-        "mac-address": "f3:65:78:a7:f9:3c",
+        "mac-address": "6f:2a:60:1b:0c:2f",
         "processor": "x86_64",
         "ram": "4 GB"
     },
-    "DefaultIPGateway": "192.168.211.2",
     "ProcessInfo": {
         "List": [
             {
@@ -168,7 +167,7 @@
             },
             {
                 "ProcessId": 90,
-                "ProcessName": "kworker/0:1H-kblockd"
+                "ProcessName": "kworker/1:1H-kblockd"
             },
             {
                 "ProcessId": 92,
@@ -315,299 +314,299 @@
                 "ProcessName": "acpi_thermal_pm"
             },
             {
-                "ProcessId": 130,
+                "ProcessId": 132,
                 "ProcessName": "scsi_eh_0"
             },
             {
-                "ProcessId": 131,
+                "ProcessId": 133,
                 "ProcessName": "scsi_tmf_0"
             },
             {
-                "ProcessId": 132,
+                "ProcessId": 134,
                 "ProcessName": "scsi_eh_1"
             },
             {
-                "ProcessId": 133,
+                "ProcessId": 135,
                 "ProcessName": "scsi_tmf_1"
             },
             {
-                "ProcessId": 135,
+                "ProcessId": 136,
                 "ProcessName": "vfio-irqfd-clea"
             },
             {
-                "ProcessId": 136,
+                "ProcessId": 137,
                 "ProcessName": "mld"
             },
             {
-                "ProcessId": 137,
+                "ProcessId": 138,
                 "ProcessName": "ipv6_addrconf"
             },
             {
-                "ProcessId": 147,
+                "ProcessId": 149,
                 "ProcessName": "kstrp"
             },
             {
-                "ProcessId": 150,
+                "ProcessId": 152,
                 "ProcessName": "zswap-shrink"
             },
             {
-                "ProcessId": 151,
+                "ProcessId": 153,
                 "ProcessName": "kworker/u257:0"
             },
             {
-                "ProcessId": 156,
+                "ProcessId": 158,
                 "ProcessName": "charger_manager"
             },
             {
-                "ProcessId": 179,
-                "ProcessName": "kworker/1:1H-kblockd"
-            },
-            {
-                "ProcessId": 202,
-                "ProcessName": "mpt_poll_0"
+                "ProcessId": 180,
+                "ProcessName": "kworker/0:1H-kblockd"
             },
             {
                 "ProcessId": 203,
-                "ProcessName": "scsi_eh_2"
+                "ProcessName": "mpt_poll_0"
             },
             {
                 "ProcessId": 204,
                 "ProcessName": "mpt/0"
             },
             {
-                "ProcessId": 205,
-                "ProcessName": "scsi_tmf_2"
-            },
-            {
                 "ProcessId": 206,
-                "ProcessName": "scsi_eh_3"
+                "ProcessName": "scsi_eh_2"
             },
             {
                 "ProcessId": 207,
-                "ProcessName": "scsi_tmf_3"
+                "ProcessName": "scsi_tmf_2"
             },
             {
                 "ProcessId": 208,
-                "ProcessName": "scsi_eh_4"
+                "ProcessName": "scsi_eh_3"
             },
             {
                 "ProcessId": 209,
-                "ProcessName": "scsi_tmf_4"
+                "ProcessName": "scsi_tmf_3"
             },
             {
                 "ProcessId": 210,
-                "ProcessName": "scsi_eh_5"
+                "ProcessName": "scsi_eh_4"
             },
             {
                 "ProcessId": 211,
-                "ProcessName": "scsi_tmf_5"
+                "ProcessName": "scsi_tmf_4"
             },
             {
                 "ProcessId": 212,
-                "ProcessName": "scsi_eh_6"
+                "ProcessName": "scsi_eh_5"
             },
             {
                 "ProcessId": 213,
-                "ProcessName": "scsi_tmf_6"
+                "ProcessName": "scsi_tmf_5"
             },
             {
                 "ProcessId": 214,
-                "ProcessName": "scsi_eh_7"
+                "ProcessName": "scsi_eh_6"
             },
             {
                 "ProcessId": 215,
-                "ProcessName": "scsi_tmf_7"
+                "ProcessName": "scsi_tmf_6"
             },
             {
                 "ProcessId": 216,
-                "ProcessName": "scsi_eh_8"
+                "ProcessName": "scsi_eh_7"
             },
             {
                 "ProcessId": 217,
-                "ProcessName": "scsi_tmf_8"
+                "ProcessName": "scsi_tmf_7"
             },
             {
                 "ProcessId": 218,
-                "ProcessName": "scsi_eh_9"
+                "ProcessName": "scsi_eh_8"
             },
             {
                 "ProcessId": 219,
-                "ProcessName": "scsi_tmf_9"
+                "ProcessName": "scsi_tmf_8"
             },
             {
                 "ProcessId": 220,
-                "ProcessName": "scsi_eh_10"
+                "ProcessName": "scsi_eh_9"
             },
             {
                 "ProcessId": 221,
-                "ProcessName": "scsi_tmf_10"
+                "ProcessName": "scsi_tmf_9"
             },
             {
                 "ProcessId": 222,
-                "ProcessName": "scsi_eh_11"
+                "ProcessName": "scsi_eh_10"
             },
             {
                 "ProcessId": 223,
-                "ProcessName": "scsi_tmf_11"
+                "ProcessName": "scsi_tmf_10"
             },
             {
                 "ProcessId": 224,
-                "ProcessName": "scsi_eh_12"
+                "ProcessName": "scsi_eh_11"
             },
             {
                 "ProcessId": 225,
-                "ProcessName": "scsi_tmf_12"
+                "ProcessName": "scsi_tmf_11"
             },
             {
                 "ProcessId": 226,
-                "ProcessName": "scsi_eh_13"
+                "ProcessName": "scsi_eh_12"
             },
             {
                 "ProcessId": 227,
-                "ProcessName": "scsi_tmf_13"
+                "ProcessName": "scsi_tmf_12"
             },
             {
                 "ProcessId": 228,
-                "ProcessName": "scsi_eh_14"
+                "ProcessName": "scsi_eh_13"
             },
             {
                 "ProcessId": 229,
-                "ProcessName": "scsi_tmf_14"
+                "ProcessName": "scsi_tmf_13"
             },
             {
                 "ProcessId": 230,
-                "ProcessName": "scsi_eh_15"
+                "ProcessName": "scsi_eh_14"
             },
             {
                 "ProcessId": 231,
-                "ProcessName": "scsi_tmf_15"
+                "ProcessName": "scsi_tmf_14"
             },
             {
                 "ProcessId": 232,
-                "ProcessName": "scsi_eh_16"
+                "ProcessName": "scsi_eh_15"
             },
             {
                 "ProcessId": 233,
-                "ProcessName": "scsi_tmf_16"
+                "ProcessName": "scsi_tmf_15"
             },
             {
                 "ProcessId": 234,
-                "ProcessName": "scsi_eh_17"
+                "ProcessName": "scsi_eh_16"
             },
             {
                 "ProcessId": 235,
-                "ProcessName": "scsi_tmf_17"
+                "ProcessName": "scsi_tmf_16"
             },
             {
                 "ProcessId": 236,
-                "ProcessName": "scsi_eh_18"
+                "ProcessName": "scsi_eh_17"
             },
             {
                 "ProcessId": 237,
-                "ProcessName": "scsi_tmf_18"
+                "ProcessName": "scsi_tmf_17"
             },
             {
                 "ProcessId": 238,
-                "ProcessName": "scsi_eh_19"
+                "ProcessName": "scsi_eh_18"
             },
             {
                 "ProcessId": 239,
-                "ProcessName": "scsi_tmf_19"
+                "ProcessName": "scsi_tmf_18"
             },
             {
                 "ProcessId": 240,
-                "ProcessName": "scsi_eh_20"
+                "ProcessName": "scsi_eh_19"
             },
             {
                 "ProcessId": 241,
-                "ProcessName": "scsi_tmf_20"
+                "ProcessName": "scsi_tmf_19"
             },
             {
                 "ProcessId": 242,
-                "ProcessName": "scsi_eh_21"
+                "ProcessName": "scsi_eh_20"
             },
             {
                 "ProcessId": 243,
-                "ProcessName": "scsi_tmf_21"
+                "ProcessName": "scsi_tmf_20"
             },
             {
                 "ProcessId": 244,
-                "ProcessName": "scsi_eh_22"
+                "ProcessName": "scsi_eh_21"
             },
             {
                 "ProcessId": 245,
-                "ProcessName": "scsi_tmf_22"
+                "ProcessName": "scsi_tmf_21"
             },
             {
                 "ProcessId": 246,
-                "ProcessName": "scsi_eh_23"
+                "ProcessName": "scsi_eh_22"
             },
             {
                 "ProcessId": 247,
-                "ProcessName": "scsi_tmf_23"
+                "ProcessName": "scsi_tmf_22"
             },
             {
                 "ProcessId": 248,
-                "ProcessName": "scsi_eh_24"
+                "ProcessName": "scsi_eh_23"
             },
             {
                 "ProcessId": 249,
-                "ProcessName": "scsi_tmf_24"
+                "ProcessName": "scsi_tmf_23"
             },
             {
                 "ProcessId": 250,
-                "ProcessName": "scsi_eh_25"
+                "ProcessName": "scsi_eh_24"
             },
             {
                 "ProcessId": 251,
-                "ProcessName": "scsi_tmf_25"
+                "ProcessName": "scsi_tmf_24"
             },
             {
                 "ProcessId": 252,
-                "ProcessName": "scsi_eh_26"
+                "ProcessName": "scsi_eh_25"
             },
             {
                 "ProcessId": 253,
-                "ProcessName": "scsi_tmf_26"
+                "ProcessName": "scsi_tmf_25"
             },
             {
                 "ProcessId": 254,
-                "ProcessName": "scsi_eh_27"
+                "ProcessName": "scsi_eh_26"
             },
             {
                 "ProcessId": 255,
-                "ProcessName": "scsi_tmf_27"
+                "ProcessName": "scsi_tmf_26"
             },
             {
                 "ProcessId": 256,
-                "ProcessName": "scsi_eh_28"
+                "ProcessName": "scsi_eh_27"
             },
             {
                 "ProcessId": 257,
-                "ProcessName": "scsi_tmf_28"
+                "ProcessName": "scsi_tmf_27"
             },
             {
                 "ProcessId": 258,
-                "ProcessName": "scsi_eh_29"
+                "ProcessName": "scsi_eh_28"
             },
             {
                 "ProcessId": 259,
-                "ProcessName": "scsi_tmf_29"
+                "ProcessName": "scsi_tmf_28"
             },
             {
                 "ProcessId": 260,
-                "ProcessName": "scsi_eh_30"
+                "ProcessName": "scsi_eh_29"
             },
             {
                 "ProcessId": 261,
-                "ProcessName": "scsi_tmf_30"
+                "ProcessName": "scsi_tmf_29"
             },
             {
                 "ProcessId": 262,
-                "ProcessName": "scsi_eh_31"
+                "ProcessName": "scsi_eh_30"
             },
             {
                 "ProcessId": 263,
+                "ProcessName": "scsi_tmf_30"
+            },
+            {
+                "ProcessId": 264,
+                "ProcessName": "scsi_eh_31"
+            },
+            {
+                "ProcessId": 265,
                 "ProcessName": "scsi_tmf_31"
             },
             {
@@ -631,19 +630,19 @@
                 "ProcessName": "systemd-journald"
             },
             {
-                "ProcessId": 376,
+                "ProcessId": 377,
                 "ProcessName": "bpfilter_umh"
             },
             {
-                "ProcessId": 400,
-                "ProcessName": "systemd-udevd"
+                "ProcessId": 390,
+                "ProcessName": "ipmi-msghandler"
             },
             {
-                "ProcessId": 401,
+                "ProcessId": 393,
                 "ProcessName": "loop0"
             },
             {
-                "ProcessId": 402,
+                "ProcessId": 394,
                 "ProcessName": "loop1"
             },
             {
@@ -651,703 +650,567 @@
                 "ProcessName": "loop2"
             },
             {
-                "ProcessId": 404,
+                "ProcessId": 406,
                 "ProcessName": "loop3"
             },
             {
-                "ProcessId": 405,
+                "ProcessId": 407,
                 "ProcessName": "loop4"
             },
             {
-                "ProcessId": 406,
-                "ProcessName": "loop5"
-            },
-            {
-                "ProcessId": 409,
-                "ProcessName": "loop6"
-            },
-            {
-                "ProcessId": 410,
-                "ProcessName": "loop7"
-            },
-            {
-                "ProcessId": 411,
-                "ProcessName": "loop8"
-            },
-            {
-                "ProcessId": 413,
-                "ProcessName": "loop9"
-            },
-            {
-                "ProcessId": 414,
-                "ProcessName": "loop10"
-            },
-            {
-                "ProcessId": 415,
-                "ProcessName": "loop11"
-            },
-            {
-                "ProcessId": 416,
-                "ProcessName": "loop12"
-            },
-            {
-                "ProcessId": 418,
-                "ProcessName": "loop13"
-            },
-            {
-                "ProcessId": 419,
-                "ProcessName": "loop14"
-            },
-            {
-                "ProcessId": 429,
-                "ProcessName": "ipmi-msghandler"
-            },
-            {
-                "ProcessId": 467,
+                "ProcessId": 408,
                 "ProcessName": "ttm_swap"
             },
             {
-                "ProcessId": 468,
+                "ProcessId": 409,
                 "ProcessName": "irq/16-vmwgfx"
             },
             {
-                "ProcessId": 469,
+                "ProcessId": 410,
                 "ProcessName": "card0-crtc0"
             },
             {
-                "ProcessId": 470,
+                "ProcessId": 411,
                 "ProcessName": "card0-crtc1"
             },
             {
-                "ProcessId": 471,
+                "ProcessId": 412,
                 "ProcessName": "card0-crtc2"
             },
             {
-                "ProcessId": 472,
+                "ProcessId": 413,
                 "ProcessName": "card0-crtc3"
             },
             {
-                "ProcessId": 473,
+                "ProcessId": 414,
                 "ProcessName": "card0-crtc4"
             },
             {
-                "ProcessId": 474,
+                "ProcessId": 415,
                 "ProcessName": "card0-crtc5"
             },
             {
-                "ProcessId": 475,
+                "ProcessId": 416,
                 "ProcessName": "card0-crtc6"
             },
             {
-                "ProcessId": 476,
+                "ProcessId": 417,
                 "ProcessName": "card0-crtc7"
             },
             {
-                "ProcessId": 484,
+                "ProcessId": 420,
+                "ProcessName": "loop5"
+            },
+            {
+                "ProcessId": 421,
+                "ProcessName": "loop6"
+            },
+            {
+                "ProcessId": 425,
+                "ProcessName": "loop7"
+            },
+            {
+                "ProcessId": 428,
+                "ProcessName": "loop8"
+            },
+            {
+                "ProcessId": 436,
+                "ProcessName": "loop9"
+            },
+            {
+                "ProcessId": 445,
+                "ProcessName": "loop10"
+            },
+            {
+                "ProcessId": 447,
+                "ProcessName": "loop11"
+            },
+            {
+                "ProcessId": 449,
+                "ProcessName": "loop12"
+            },
+            {
+                "ProcessId": 450,
+                "ProcessName": "loop13"
+            },
+            {
+                "ProcessId": 469,
+                "ProcessName": "systemd-udevd"
+            },
+            {
+                "ProcessId": 472,
+                "ProcessName": "loop14"
+            },
+            {
+                "ProcessId": 476,
+                "ProcessName": "loop15"
+            },
+            {
+                "ProcessId": 479,
+                "ProcessName": "loop16"
+            },
+            {
+                "ProcessId": 482,
+                "ProcessName": "loop17"
+            },
+            {
+                "ProcessId": 488,
+                "ProcessName": "loop18"
+            },
+            {
+                "ProcessId": 489,
+                "ProcessName": "loop19"
+            },
+            {
+                "ProcessId": 495,
                 "ProcessName": "vmware-vmblock-fuse"
             },
             {
-                "ProcessId": 616,
+                "ProcessId": 556,
                 "ProcessName": "cryptd"
             },
             {
-                "ProcessId": 725,
+                "ProcessId": 741,
                 "ProcessName": "systemd-resolved"
             },
             {
-                "ProcessId": 726,
+                "ProcessId": 742,
                 "ProcessName": "systemd-timesyncd"
             },
             {
-                "ProcessId": 744,
+                "ProcessId": 760,
                 "ProcessName": "VGAuthService"
             },
             {
-                "ProcessId": 746,
+                "ProcessId": 762,
                 "ProcessName": "vmtoolsd"
-            },
-            {
-                "ProcessId": 769,
-                "ProcessName": "accounts-daemon"
-            },
-            {
-                "ProcessId": 770,
-                "ProcessName": "acpid"
-            },
-            {
-                "ProcessId": 773,
-                "ProcessName": "avahi-daemon"
-            },
-            {
-                "ProcessId": 774,
-                "ProcessName": "cron"
-            },
-            {
-                "ProcessId": 776,
-                "ProcessName": "dbus-daemon"
-            },
-            {
-                "ProcessId": 777,
-                "ProcessName": "NetworkManager"
-            },
-            {
-                "ProcessId": 781,
-                "ProcessName": "irqbalance"
-            },
-            {
-                "ProcessId": 784,
-                "ProcessName": "polkitd"
-            },
-            {
-                "ProcessId": 786,
-                "ProcessName": "rsyslogd"
-            },
-            {
-                "ProcessId": 787,
-                "ProcessName": "snapd"
             },
             {
                 "ProcessId": 788,
-                "ProcessName": "switcheroo-control"
-            },
-            {
-                "ProcessId": 790,
-                "ProcessName": "systemd-logind"
-            },
-            {
-                "ProcessId": 791,
-                "ProcessName": "udisksd"
+                "ProcessName": "accounts-daemon"
             },
             {
                 "ProcessId": 792,
-                "ProcessName": "wpa_supplicant"
+                "ProcessName": "acpid"
             },
             {
-                "ProcessId": 800,
+                "ProcessId": 796,
                 "ProcessName": "avahi-daemon"
             },
             {
-                "ProcessId": 844,
-                "ProcessName": "ModemManager"
+                "ProcessId": 797,
+                "ProcessName": "cron"
+            },
+            {
+                "ProcessId": 799,
+                "ProcessName": "dbus-daemon"
+            },
+            {
+                "ProcessId": 800,
+                "ProcessName": "NetworkManager"
+            },
+            {
+                "ProcessId": 805,
+                "ProcessName": "irqbalance"
+            },
+            {
+                "ProcessId": 810,
+                "ProcessName": "polkitd"
+            },
+            {
+                "ProcessId": 812,
+                "ProcessName": "rsyslogd"
+            },
+            {
+                "ProcessId": 813,
+                "ProcessName": "snapd"
+            },
+            {
+                "ProcessId": 814,
+                "ProcessName": "switcheroo-control"
+            },
+            {
+                "ProcessId": 816,
+                "ProcessName": "systemd-logind"
+            },
+            {
+                "ProcessId": 817,
+                "ProcessName": "udisksd"
+            },
+            {
+                "ProcessId": 818,
+                "ProcessName": "wpa_supplicant"
+            },
+            {
+                "ProcessId": 820,
+                "ProcessName": "avahi-daemon"
             },
             {
                 "ProcessId": 858,
+                "ProcessName": "ModemManager"
+            },
+            {
+                "ProcessId": 898,
                 "ProcessName": "gdm3"
             },
             {
-                "ProcessId": 943,
+                "ProcessId": 949,
                 "ProcessName": "whoopsie"
             },
             {
-                "ProcessId": 944,
+                "ProcessId": 973,
                 "ProcessName": "kerneloops"
             },
             {
-                "ProcessId": 947,
+                "ProcessId": 976,
                 "ProcessName": "kerneloops"
             },
             {
-                "ProcessId": 1019,
+                "ProcessId": 1036,
                 "ProcessName": "rtkit-daemon"
             },
             {
-                "ProcessId": 1145,
+                "ProcessId": 1158,
                 "ProcessName": "upowerd"
             },
             {
-                "ProcessId": 1358,
+                "ProcessId": 1376,
                 "ProcessName": "colord"
             },
             {
-                "ProcessId": 1380,
+                "ProcessId": 1512,
                 "ProcessName": "gdm-session-worker"
             },
             {
-                "ProcessId": 1388,
+                "ProcessId": 1525,
                 "ProcessName": "systemd"
             },
             {
-                "ProcessId": 1389,
+                "ProcessId": 1526,
                 "ProcessName": "(sd-pam)"
             },
             {
-                "ProcessId": 1394,
+                "ProcessId": 1531,
                 "ProcessName": "pulseaudio"
             },
             {
-                "ProcessId": 1396,
+                "ProcessId": 1534,
                 "ProcessName": "tracker-miner-fs"
             },
             {
-                "ProcessId": 1400,
+                "ProcessId": 1536,
                 "ProcessName": "dbus-daemon"
             },
             {
-                "ProcessId": 1405,
+                "ProcessId": 1551,
                 "ProcessName": "gnome-keyring-daemon"
             },
             {
-                "ProcessId": 1419,
+                "ProcessId": 1556,
                 "ProcessName": "gvfsd"
             },
             {
-                "ProcessId": 1424,
+                "ProcessId": 1561,
                 "ProcessName": "gvfsd-fuse"
             },
             {
-                "ProcessId": 1432,
+                "ProcessId": 1563,
                 "ProcessName": "gvfs-udisks2-volume-monitor"
             },
             {
-                "ProcessId": 1440,
+                "ProcessId": 1576,
                 "ProcessName": "gvfs-goa-volume-monitor"
             },
             {
-                "ProcessId": 1444,
+                "ProcessId": 1580,
                 "ProcessName": "goa-daemon"
             },
             {
-                "ProcessId": 1452,
-                "ProcessName": "goa-identity-service"
-            },
-            {
-                "ProcessId": 1459,
-                "ProcessName": "gvfs-afc-volume-monitor"
-            },
-            {
-                "ProcessId": 1464,
-                "ProcessName": "gvfs-mtp-volume-monitor"
-            },
-            {
-                "ProcessId": 1468,
-                "ProcessName": "gvfs-gphoto2-volume-monitor"
-            },
-            {
-                "ProcessId": 1476,
+                "ProcessId": 1583,
                 "ProcessName": "gdm-x-session"
             },
             {
-                "ProcessId": 1478,
+                "ProcessId": 1585,
                 "ProcessName": "Xorg"
             },
             {
-                "ProcessId": 1491,
+                "ProcessId": 1593,
+                "ProcessName": "goa-identity-service"
+            },
+            {
+                "ProcessId": 1601,
+                "ProcessName": "gvfs-afc-volume-monitor"
+            },
+            {
+                "ProcessId": 1606,
+                "ProcessName": "gvfs-mtp-volume-monitor"
+            },
+            {
+                "ProcessId": 1610,
+                "ProcessName": "gvfs-gphoto2-volume-monitor"
+            },
+            {
+                "ProcessId": 1624,
                 "ProcessName": "gnome-keyring-daemon"
             },
             {
-                "ProcessId": 1503,
+                "ProcessId": 1636,
                 "ProcessName": "gnome-session-binary"
             },
             {
-                "ProcessId": 1571,
+                "ProcessId": 1703,
                 "ProcessName": "ssh-agent"
             },
             {
-                "ProcessId": 1588,
+                "ProcessId": 1720,
                 "ProcessName": "at-spi-bus-launcher"
             },
             {
-                "ProcessId": 1593,
+                "ProcessId": 1725,
                 "ProcessName": "dbus-daemon"
             },
             {
-                "ProcessId": 1599,
+                "ProcessId": 1731,
                 "ProcessName": "gnome-session-ctl"
             },
             {
-                "ProcessId": 1604,
+                "ProcessId": 1737,
                 "ProcessName": "gnome-session-binary"
             },
             {
-                "ProcessId": 1620,
+                "ProcessId": 1750,
                 "ProcessName": "gnome-shell"
             },
             {
-                "ProcessId": 1639,
+                "ProcessId": 1769,
                 "ProcessName": "ibus-daemon"
             },
             {
-                "ProcessId": 1643,
+                "ProcessId": 1773,
                 "ProcessName": "ibus-memconf"
             },
             {
-                "ProcessId": 1644,
+                "ProcessId": 1774,
                 "ProcessName": "ibus-extension-gtk3"
             },
             {
-                "ProcessId": 1647,
+                "ProcessId": 1776,
                 "ProcessName": "ibus-x11"
             },
             {
-                "ProcessId": 1650,
+                "ProcessId": 1779,
                 "ProcessName": "ibus-portal"
             },
             {
-                "ProcessId": 1660,
+                "ProcessId": 1790,
                 "ProcessName": "at-spi2-registryd"
             },
             {
-                "ProcessId": 1665,
+                "ProcessId": 1794,
                 "ProcessName": "gnome-shell-calendar-server"
             },
             {
-                "ProcessId": 1666,
+                "ProcessId": 1795,
                 "ProcessName": "xdg-permission-store"
             },
             {
-                "ProcessId": 1677,
+                "ProcessId": 1807,
                 "ProcessName": "evolution-source-registry"
             },
             {
-                "ProcessId": 1683,
+                "ProcessId": 1817,
                 "ProcessName": "dconf-service"
             },
             {
-                "ProcessId": 1686,
+                "ProcessId": 1824,
                 "ProcessName": "gvfsd-metadata"
             },
             {
-                "ProcessId": 1695,
+                "ProcessId": 1833,
                 "ProcessName": "evolution-calendar-factory"
             },
             {
-                "ProcessId": 1702,
-                "ProcessName": "gjs"
-            },
-            {
-                "ProcessId": 1709,
-                "ProcessName": "gsd-a11y-settings"
-            },
-            {
-                "ProcessId": 1710,
-                "ProcessName": "gsd-color"
-            },
-            {
-                "ProcessId": 1719,
-                "ProcessName": "gsd-datetime"
-            },
-            {
-                "ProcessId": 1721,
-                "ProcessName": "gsd-housekeeping"
-            },
-            {
-                "ProcessId": 1722,
-                "ProcessName": "gsd-keyboard"
-            },
-            {
-                "ProcessId": 1728,
-                "ProcessName": "gsd-media-keys"
-            },
-            {
-                "ProcessId": 1730,
-                "ProcessName": "gsd-power"
-            },
-            {
-                "ProcessId": 1731,
-                "ProcessName": "gsd-print-notifications"
-            },
-            {
-                "ProcessId": 1732,
-                "ProcessName": "gsd-rfkill"
-            },
-            {
-                "ProcessId": 1736,
-                "ProcessName": "gsd-screensaver-proxy"
-            },
-            {
-                "ProcessId": 1744,
-                "ProcessName": "gsd-sharing"
-            },
-            {
-                "ProcessId": 1745,
-                "ProcessName": "gsd-smartcard"
-            },
-            {
-                "ProcessId": 1750,
-                "ProcessName": "gvfsd-trash"
-            },
-            {
-                "ProcessId": 1761,
-                "ProcessName": "gsd-sound"
-            },
-            {
-                "ProcessId": 1773,
-                "ProcessName": "gsd-usb-protection"
-            },
-            {
-                "ProcessId": 1775,
-                "ProcessName": "evolution-alarm-notify"
-            },
-            {
-                "ProcessId": 1776,
-                "ProcessName": "gsd-wacom"
-            },
-            {
-                "ProcessId": 1782,
-                "ProcessName": "gsd-wwan"
-            },
-            {
-                "ProcessId": 1783,
-                "ProcessName": "gsd-xsettings"
-            },
-            {
-                "ProcessId": 1807,
+                "ProcessId": 1858,
                 "ProcessName": "evolution-addressbook-factory"
             },
             {
-                "ProcessId": 1814,
-                "ProcessName": "gsd-disk-utility-notify"
+                "ProcessId": 1864,
+                "ProcessName": "gjs"
             },
             {
-                "ProcessId": 1857,
-                "ProcessName": "vmtoolsd"
+                "ProcessId": 1882,
+                "ProcessName": "gvfsd-trash"
             },
             {
-                "ProcessId": 1863,
-                "ProcessName": "gsd-printer"
-            },
-            {
-                "ProcessId": 1874,
-                "ProcessName": "ibus-engine-simple"
+                "ProcessId": 1886,
+                "ProcessName": "gsd-a11y-settings"
             },
             {
                 "ProcessId": 1887,
+                "ProcessName": "gsd-color"
+            },
+            {
+                "ProcessId": 1889,
+                "ProcessName": "gsd-datetime"
+            },
+            {
+                "ProcessId": 1892,
+                "ProcessName": "gsd-housekeeping"
+            },
+            {
+                "ProcessId": 1893,
+                "ProcessName": "gsd-keyboard"
+            },
+            {
+                "ProcessId": 1905,
+                "ProcessName": "gsd-media-keys"
+            },
+            {
+                "ProcessId": 1907,
+                "ProcessName": "gsd-power"
+            },
+            {
+                "ProcessId": 1908,
+                "ProcessName": "gsd-print-notifications"
+            },
+            {
+                "ProcessId": 1913,
+                "ProcessName": "gsd-rfkill"
+            },
+            {
+                "ProcessId": 1914,
+                "ProcessName": "gsd-screensaver-proxy"
+            },
+            {
+                "ProcessId": 1921,
+                "ProcessName": "gsd-sharing"
+            },
+            {
+                "ProcessId": 1934,
+                "ProcessName": "evolution-alarm-notify"
+            },
+            {
+                "ProcessId": 1935,
+                "ProcessName": "gsd-smartcard"
+            },
+            {
+                "ProcessId": 1937,
+                "ProcessName": "gsd-sound"
+            },
+            {
+                "ProcessId": 1940,
+                "ProcessName": "ibus-engine-simple"
+            },
+            {
+                "ProcessId": 1942,
+                "ProcessName": "gsd-usb-protection"
+            },
+            {
+                "ProcessId": 1952,
+                "ProcessName": "gsd-wacom"
+            },
+            {
+                "ProcessId": 1956,
+                "ProcessName": "gsd-wwan"
+            },
+            {
+                "ProcessId": 1957,
+                "ProcessName": "gsd-xsettings"
+            },
+            {
+                "ProcessId": 1961,
+                "ProcessName": "gsd-disk-utility-notify"
+            },
+            {
+                "ProcessId": 1994,
+                "ProcessName": "vmtoolsd"
+            },
+            {
+                "ProcessId": 2003,
+                "ProcessName": "gsd-printer"
+            },
+            {
+                "ProcessId": 2031,
                 "ProcessName": "snap-store"
             },
             {
-                "ProcessId": 1915,
+                "ProcessId": 2061,
                 "ProcessName": "xdg-document-portal"
             },
             {
-                "ProcessId": 2030,
+                "ProcessId": 2177,
                 "ProcessName": "xdg-desktop-portal"
             },
             {
-                "ProcessId": 2034,
+                "ProcessId": 2181,
                 "ProcessName": "xdg-desktop-portal-gtk"
             },
             {
-                "ProcessId": 9629,
+                "ProcessId": 2221,
                 "ProcessName": "nautilus"
             },
             {
-                "ProcessId": 9805,
-                "ProcessName": "code"
-            },
-            {
-                "ProcessId": 9807,
-                "ProcessName": "code"
-            },
-            {
-                "ProcessId": 9808,
-                "ProcessName": "code"
-            },
-            {
-                "ProcessId": 9823,
-                "ProcessName": "chrome_crashpad_handler"
-            },
-            {
-                "ProcessId": 9849,
-                "ProcessName": "code"
-            },
-            {
-                "ProcessId": 9857,
-                "ProcessName": "code"
-            },
-            {
-                "ProcessId": 9874,
-                "ProcessName": "code"
-            },
-            {
-                "ProcessId": 9918,
-                "ProcessName": "code"
-            },
-            {
-                "ProcessId": 9950,
-                "ProcessName": "code"
-            },
-            {
-                "ProcessId": 12023,
-                "ProcessName": "chrome"
-            },
-            {
-                "ProcessId": 12028,
-                "ProcessName": "cat"
-            },
-            {
-                "ProcessId": 12029,
-                "ProcessName": "cat"
-            },
-            {
-                "ProcessId": 12031,
-                "ProcessName": "chrome_crashpad_handler"
-            },
-            {
-                "ProcessId": 12033,
-                "ProcessName": "chrome_crashpad_handler"
-            },
-            {
-                "ProcessId": 12039,
-                "ProcessName": "chrome"
-            },
-            {
-                "ProcessId": 12040,
-                "ProcessName": "chrome"
-            },
-            {
-                "ProcessId": 12041,
-                "ProcessName": "nacl_helper"
-            },
-            {
-                "ProcessId": 12044,
-                "ProcessName": "chrome"
-            },
-            {
-                "ProcessId": 12067,
-                "ProcessName": "chrome"
-            },
-            {
-                "ProcessId": 12068,
-                "ProcessName": "chrome"
-            },
-            {
-                "ProcessId": 12078,
-                "ProcessName": "chrome"
-            },
-            {
-                "ProcessId": 12087,
-                "ProcessName": "chrome"
-            },
-            {
-                "ProcessId": 12104,
-                "ProcessName": "chrome"
-            },
-            {
-                "ProcessId": 12151,
-                "ProcessName": "chrome"
-            },
-            {
-                "ProcessId": 12249,
-                "ProcessName": "chrome"
-            },
-            {
-                "ProcessId": 12281,
-                "ProcessName": "chrome"
-            },
-            {
-                "ProcessId": 12315,
-                "ProcessName": "chrome"
-            },
-            {
-                "ProcessId": 12322,
-                "ProcessName": "chrome"
-            },
-            {
-                "ProcessId": 12480,
-                "ProcessName": "chrome"
-            },
-            {
-                "ProcessId": 19496,
-                "ProcessName": "chrome"
-            },
-            {
-                "ProcessId": 20661,
-                "ProcessName": "chrome"
-            },
-            {
-                "ProcessId": 26980,
-                "ProcessName": "designer"
-            },
-            {
-                "ProcessId": 26996,
-                "ProcessName": "gvfsd-network"
-            },
-            {
-                "ProcessId": 27028,
-                "ProcessName": "gvfsd-dnssd"
-            },
-            {
-                "ProcessId": 27929,
+                "ProcessId": 2514,
                 "ProcessName": "cupsd"
             },
             {
-                "ProcessId": 27932,
+                "ProcessId": 2516,
                 "ProcessName": "cups-browsed"
             },
             {
-                "ProcessId": 28609,
-                "ProcessName": "code"
+                "ProcessId": 2517,
+                "ProcessName": "dbus"
             },
             {
-                "ProcessId": 28622,
-                "ProcessName": "code"
-            },
-            {
-                "ProcessId": 28642,
-                "ProcessName": "bash"
-            },
-            {
-                "ProcessId": 28649,
-                "ProcessName": "bash"
-            },
-            {
-                "ProcessId": 28706,
-                "ProcessName": "code"
-            },
-            {
-                "ProcessId": 28967,
-                "ProcessName": "kworker/u256:2-ext4-rsv-conversion"
-            },
-            {
-                "ProcessId": 29255,
-                "ProcessName": "kworker/0:1-events"
-            },
-            {
-                "ProcessId": 29333,
+                "ProcessId": 2684,
                 "ProcessName": "kworker/0:0-events"
             },
             {
-                "ProcessId": 29622,
+                "ProcessId": 2750,
+                "ProcessName": "kworker/u256:1-ext4-rsv-conversion"
+            },
+            {
+                "ProcessId": 2775,
+                "ProcessName": "kworker/u256:2-events_unbound"
+            },
+            {
+                "ProcessId": 2791,
+                "ProcessName": "kworker/1:1-rcu_par_gp"
+            },
+            {
+                "ProcessId": 2798,
+                "ProcessName": "kworker/u256:0-events_power_efficient"
+            },
+            {
+                "ProcessId": 2806,
+                "ProcessName": "kworker/0:2-rcu_par_gp"
+            },
+            {
+                "ProcessId": 2808,
+                "ProcessName": "kworker/1:2-events"
+            },
+            {
+                "ProcessId": 2882,
                 "ProcessName": "uuidd"
             },
             {
-                "ProcessId": 29623,
-                "ProcessName": "kworker/1:0-events"
+                "ProcessId": 23593,
+                "ProcessName": "kworker/u256:3-events_unbound"
             },
             {
-                "ProcessId": 29889,
-                "ProcessName": "kworker/u256:0-ext4-rsv-conversion"
-            },
-            {
-                "ProcessId": 29914,
-                "ProcessName": "kworker/1:2-cgroup_destroy"
-            },
-            {
-                "ProcessId": 29946,
-                "ProcessName": "bash"
-            },
-            {
-                "ProcessId": 30146,
-                "ProcessName": "kworker/u256:1-events_unbound"
-            },
-            {
-                "ProcessId": 30248,
-                "ProcessName": "sudo"
-            },
-            {
-                "ProcessId": 30302,
+                "ProcessId": 24541,
                 "ProcessName": "gnome-terminal-server"
             },
             {
-                "ProcessId": 30309,
+                "ProcessId": 24548,
                 "ProcessName": "bash"
             },
             {
-                "ProcessId": 30319,
+                "ProcessId": 24560,
                 "ProcessName": "python3"
             }
         ],
-        "Count": 332
+        "Count": 298
     },
     "UserName": "lovely",
     "InstalledSoftwareInfo": {
@@ -1373,8 +1236,8 @@
             "appstream/focal,now 0.12.10-2 amd64 [installed]",
             "apt-config-icons-hidpi/focal,focal,now 0.12.10-2 all [installed]",
             "apt-config-icons/focal,focal,now 0.12.10-2 all [installed,automatic]",
-            "apt-utils/focal-updates,now 2.0.6 amd64 [installed]",
-            "apt/focal-updates,now 2.0.6 amd64 [installed]",
+            "apt-utils/now 2.0.6 amd64 [installed,upgradable to: 2.0.8]",
+            "apt/now 2.0.6 amd64 [installed,upgradable to: 2.0.8]",
             "aptdaemon-data/focal-updates,focal-updates,focal-security,focal-security,now 1.1.1+bzr982-0ubuntu32.3 all [installed,auto-removable]",
             "aspell-en/focal,focal,now 2018.04.16-0-1 all [installed,automatic]",
             "aspell/focal-updates,focal-security,now 0.60.8-1ubuntu0.1 amd64 [installed,automatic]",
@@ -1428,23 +1291,23 @@
             "crda/focal,now 3.18-1build1 amd64 [installed,automatic]",
             "cron/focal,now 3.0pl1-136ubuntu1 amd64 [installed]",
             "cups-browsed/focal,now 1.27.4-1 amd64 [installed,automatic]",
-            "cups-bsd/focal-updates,focal-security,now 2.3.1-9ubuntu1.1 amd64 [installed]",
-            "cups-client/focal-updates,focal-security,now 2.3.1-9ubuntu1.1 amd64 [installed]",
-            "cups-common/focal-updates,focal-updates,focal-security,focal-security,now 2.3.1-9ubuntu1.1 all [installed,automatic]",
-            "cups-core-drivers/focal-updates,focal-security,now 2.3.1-9ubuntu1.1 amd64 [installed,automatic]",
-            "cups-daemon/focal-updates,focal-security,now 2.3.1-9ubuntu1.1 amd64 [installed,automatic]",
+            "cups-bsd/now 2.3.1-9ubuntu1.1 amd64 [installed,upgradable to: 2.3.1-9ubuntu1.2]",
+            "cups-client/now 2.3.1-9ubuntu1.1 amd64 [installed,upgradable to: 2.3.1-9ubuntu1.2]",
+            "cups-common/now 2.3.1-9ubuntu1.1 all [installed,upgradable to: 2.3.1-9ubuntu1.2]",
+            "cups-core-drivers/now 2.3.1-9ubuntu1.1 amd64 [installed,upgradable to: 2.3.1-9ubuntu1.2]",
+            "cups-daemon/now 2.3.1-9ubuntu1.1 amd64 [installed,upgradable to: 2.3.1-9ubuntu1.2]",
             "cups-filters-core-drivers/focal,now 1.27.4-1 amd64 [installed,automatic]",
             "cups-filters/focal,now 1.27.4-1 amd64 [installed]",
-            "cups-ipp-utils/focal-updates,focal-security,now 2.3.1-9ubuntu1.1 amd64 [installed,automatic]",
+            "cups-ipp-utils/now 2.3.1-9ubuntu1.1 amd64 [installed,upgradable to: 2.3.1-9ubuntu1.2]",
             "cups-pk-helper/focal,now 0.2.6-1ubuntu3 amd64 [installed,automatic]",
-            "cups-ppdc/focal-updates,focal-security,now 2.3.1-9ubuntu1.1 amd64 [installed,automatic]",
-            "cups-server-common/focal-updates,focal-updates,focal-security,focal-security,now 2.3.1-9ubuntu1.1 all [installed,automatic]",
-            "cups/focal-updates,focal-security,now 2.3.1-9ubuntu1.1 amd64 [installed]",
-            "curl/focal-updates,focal-security,now 7.68.0-1ubuntu2.10 amd64 [installed]",
+            "cups-ppdc/now 2.3.1-9ubuntu1.1 amd64 [installed,upgradable to: 2.3.1-9ubuntu1.2]",
+            "cups-server-common/now 2.3.1-9ubuntu1.1 all [installed,upgradable to: 2.3.1-9ubuntu1.2]",
+            "cups/now 2.3.1-9ubuntu1.1 amd64 [installed,upgradable to: 2.3.1-9ubuntu1.2]",
+            "curl/now 7.68.0-1ubuntu2.10 amd64 [installed,upgradable to: 7.68.0-1ubuntu2.11]",
             "dash/focal,now 0.5.10.2-6 amd64 [installed]",
-            "dbus-user-session/focal-updates,focal-security,now 1.12.16-2ubuntu2.1 amd64 [installed,automatic]",
-            "dbus-x11/focal-updates,focal-security,now 1.12.16-2ubuntu2.1 amd64 [installed,automatic]",
-            "dbus/focal-updates,focal-security,now 1.12.16-2ubuntu2.1 amd64 [installed,automatic]",
+            "dbus-user-session/now 1.12.16-2ubuntu2.1 amd64 [installed,upgradable to: 1.12.16-2ubuntu2.2]",
+            "dbus-x11/now 1.12.16-2ubuntu2.1 amd64 [installed,upgradable to: 1.12.16-2ubuntu2.2]",
+            "dbus/now 1.12.16-2ubuntu2.1 amd64 [installed,upgradable to: 1.12.16-2ubuntu2.2]",
             "dc/focal,now 1.07.1-2build1 amd64 [installed,automatic]",
             "dconf-cli/focal,now 0.36.0-1 amd64 [installed,automatic]",
             "dconf-gsettings-backend/focal,now 0.36.0-1 amd64 [installed,automatic]",
@@ -1463,11 +1326,11 @@
             "dmsetup/focal,now 2:1.02.167-1ubuntu1 amd64 [installed,automatic]",
             "dmz-cursor-theme/focal,focal,now 0.4.5ubuntu1 all [installed]",
             "dns-root-data/focal,focal,now 2019052802 all [installed,automatic]",
-            "dnsmasq-base/focal-updates,focal-security,now 2.80-1.1ubuntu1.4 amd64 [installed,automatic]",
+            "dnsmasq-base/now 2.80-1.1ubuntu1.4 amd64 [installed,upgradable to: 2.80-1.1ubuntu1.5]",
             "docbook-xml/focal,focal,now 4.5-9 all [installed,automatic]",
             "dosfstools/focal,now 4.1-2 amd64 [installed]",
-            "dpkg-dev/focal,focal,now 1.19.7ubuntu3 all [installed,automatic]",
-            "dpkg/focal,now 1.19.7ubuntu3 amd64 [installed,automatic]",
+            "dpkg-dev/focal,focal,now 1.19.7ubuntu3 all [installed,upgradable to: 1.19.7ubuntu3.2]",
+            "dpkg/focal,now 1.19.7ubuntu3 amd64 [installed,upgradable to: 1.19.7ubuntu3.2]",
             "duplicity/focal,now 0.8.11.1612-1 amd64 [installed,automatic]",
             "e2fsprogs/focal,now 1.45.5-2ubuntu1 amd64 [installed]",
             "ed/focal,now 1.16-1 amd64 [installed]",
@@ -1485,8 +1348,8 @@
             "file-roller/focal-updates,focal-security,now 3.36.3-0ubuntu1.1 amd64 [installed]",
             "file/focal,now 1:5.38-4 amd64 [installed]",
             "findutils/focal,now 4.7.0-1ubuntu1 amd64 [installed]",
-            "firefox-locale-en/focal-updates,focal-security,now 99.0+build2-0ubuntu0.20.04.2 amd64 [installed]",
-            "firefox/focal-updates,focal-security,now 99.0+build2-0ubuntu0.20.04.2 amd64 [installed]",
+            "firefox-locale-en/now 99.0+build2-0ubuntu0.20.04.2 amd64 [installed,upgradable to: 100.0.2+build1-0ubuntu0.20.04.1]",
+            "firefox/now 99.0+build2-0ubuntu0.20.04.2 amd64 [installed,upgradable to: 100.0.2+build1-0ubuntu0.20.04.1]",
             "fontconfig-config/focal,focal,now 2.13.1-2ubuntu3 all [installed,automatic]",
             "fontconfig/focal,now 2.13.1-2ubuntu3 amd64 [installed,automatic]",
             "fonts-beng-extra/focal,focal,now 1.0-7 all [installed,automatic]",
@@ -1644,8 +1507,9 @@
             "gir1.2-gudev-1.0/focal,now 1:233-1 amd64 [installed,automatic]",
             "gir1.2-gweather-3.0/focal-updates,now 3.36.1-1~ubuntu20.04.1 amd64 [installed,automatic]",
             "gir1.2-ibus-1.0/focal-updates,now 1.5.22-2ubuntu2.1 amd64 [installed,automatic]",
-            "gir1.2-javascriptcoregtk-4.0/now 2.34.6-0ubuntu0.20.04.1 amd64 [installed,upgradable to: 2.36.0-0ubuntu0.20.04.3]",
+            "gir1.2-javascriptcoregtk-4.0/now 2.34.6-0ubuntu0.20.04.1 amd64 [installed,upgradable to: 2.36.3-0ubuntu0.20.04.1]",
             "gir1.2-json-1.0/focal,now 1.4.4-2ubuntu2 amd64 [installed,automatic]",
+            "gir1.2-keybinder-3.0/focal,now 0.3.2-1ubuntu1 amd64 [installed,automatic]",
             "gir1.2-mutter-6/focal-updates,now 3.36.9-0ubuntu0.20.04.2 amd64 [installed,automatic]",
             "gir1.2-nm-1.0/focal-updates,now 1.22.10-1ubuntu2.3 amd64 [installed,automatic]",
             "gir1.2-nma-1.0/focal-updates,now 1.8.24-1ubuntu3 amd64 [installed,automatic]",
@@ -1664,8 +1528,8 @@
             "gir1.2-udisks-2.0/focal-updates,now 2.8.4-1ubuntu2 amd64 [installed,automatic]",
             "gir1.2-unity-5.0/focal,now 7.1.4+19.04.20190319-0ubuntu3 amd64 [installed,automatic]",
             "gir1.2-upowerglib-1.0/focal,now 0.99.11-1build2 amd64 [installed,automatic]",
-            "gir1.2-vte-2.91/focal-updates,now 0.60.3-0ubuntu1~20.04 amd64 [installed,auto-removable]",
-            "gir1.2-webkit2-4.0/now 2.34.6-0ubuntu0.20.04.1 amd64 [installed,upgradable to: 2.36.0-0ubuntu0.20.04.3]",
+            "gir1.2-vte-2.91/focal-updates,now 0.60.3-0ubuntu1~20.04 amd64 [installed,automatic]",
+            "gir1.2-webkit2-4.0/now 2.34.6-0ubuntu0.20.04.1 amd64 [installed,upgradable to: 2.36.3-0ubuntu0.20.04.1]",
             "gir1.2-wnck-3.0/focal,now 3.36.0-1 amd64 [installed,automatic]",
             "git-man/focal-updates,focal-updates,focal-security,focal-security,now 1:2.25.1-1ubuntu3.4 all [installed,automatic]",
             "git/focal-updates,focal-security,now 1:2.25.1-1ubuntu3.4 amd64 [installed]",
@@ -1719,7 +1583,7 @@
             "gnupg-l10n/focal-updates,focal-updates,now 2.2.19-3ubuntu2.1 all [installed,automatic]",
             "gnupg-utils/focal-updates,now 2.2.19-3ubuntu2.1 amd64 [installed,automatic]",
             "gnupg/focal-updates,focal-updates,now 2.2.19-3ubuntu2.1 all [installed,automatic]",
-            "google-chrome-stable/now 100.0.4896.127-1 amd64 [installed,upgradable to: 101.0.4951.54-1]",
+            "google-chrome-stable/now 100.0.4896.127-1 amd64 [installed,upgradable to: 102.0.5005.61-1]",
             "gpg-agent/focal-updates,now 2.2.19-3ubuntu2.1 amd64 [installed]",
             "gpg-wks-client/focal-updates,now 2.2.19-3ubuntu2.1 amd64 [installed,automatic]",
             "gpg-wks-server/focal-updates,now 2.2.19-3ubuntu2.1 amd64 [installed,automatic]",
@@ -1751,14 +1615,15 @@
             "gtk-update-icon-cache/focal-updates,now 3.24.20-0ubuntu1.1 amd64 [installed,automatic]",
             "gtk2-engines-murrine/focal,now 0.98.2-3 amd64 [installed,automatic]",
             "gtk2-engines-pixbuf/focal,now 2.24.32-4ubuntu4 amd64 [installed,automatic]",
+            "guake/focal,focal,now 3.6.3-2 all [installed]",
             "guile-2.2-libs/focal,now 2.2.7+1-4 amd64 [installed,automatic]",
-            "gvfs-backends/focal,now 1.44.1-1ubuntu1 amd64 [installed,automatic]",
-            "gvfs-bin/focal,now 1.44.1-1ubuntu1 amd64 [installed]",
-            "gvfs-common/focal,focal,now 1.44.1-1ubuntu1 all [installed,automatic]",
-            "gvfs-daemons/focal,now 1.44.1-1ubuntu1 amd64 [installed,automatic]",
-            "gvfs-fuse/focal,now 1.44.1-1ubuntu1 amd64 [installed]",
-            "gvfs-libs/focal,now 1.44.1-1ubuntu1 amd64 [installed,automatic]",
-            "gvfs/focal,now 1.44.1-1ubuntu1 amd64 [installed,automatic]",
+            "gvfs-backends/focal,now 1.44.1-1ubuntu1 amd64 [installed,upgradable to: 1.44.1-1ubuntu1.1]",
+            "gvfs-bin/focal,now 1.44.1-1ubuntu1 amd64 [installed,upgradable to: 1.44.1-1ubuntu1.1]",
+            "gvfs-common/focal,focal,now 1.44.1-1ubuntu1 all [installed,upgradable to: 1.44.1-1ubuntu1.1]",
+            "gvfs-daemons/focal,now 1.44.1-1ubuntu1 amd64 [installed,upgradable to: 1.44.1-1ubuntu1.1]",
+            "gvfs-fuse/focal,now 1.44.1-1ubuntu1 amd64 [installed,upgradable to: 1.44.1-1ubuntu1.1]",
+            "gvfs-libs/focal,now 1.44.1-1ubuntu1 amd64 [installed,upgradable to: 1.44.1-1ubuntu1.1]",
+            "gvfs/focal,now 1.44.1-1ubuntu1 amd64 [installed,upgradable to: 1.44.1-1ubuntu1.1]",
             "gzip/focal-updates,focal-security,now 1.10-0ubuntu4.1 amd64 [installed]",
             "hdparm/focal,now 9.58+ds-4 amd64 [installed]",
             "hicolor-icon-theme/focal,focal,now 0.17-2 all [installed,automatic]",
@@ -1799,7 +1664,7 @@
             "kerneloops/focal,now 0.12+git20140509-6ubuntu2 amd64 [installed]",
             "keyboard-configuration/focal,focal,now 1.194ubuntu3 all [installed]",
             "klibc-utils/focal-updates,focal-security,now 2.0.7-1ubuntu5.1 amd64 [installed,automatic]",
-            "kmod/focal,now 27-1ubuntu2 amd64 [installed]",
+            "kmod/focal,now 27-1ubuntu2 amd64 [installed,upgradable to: 27-1ubuntu2.1]",
             "krb5-locales/focal-updates,focal-updates,focal-security,focal-security,now 1.17-6ubuntu4.1 all [installed,automatic]",
             "language-pack-en-base/focal-updates,focal-updates,now 1:20.04+20220211 all [installed]",
             "language-pack-en/focal-updates,focal-updates,now 1:20.04+20220211 all [installed]",
@@ -1823,7 +1688,7 @@
             "libapparmor1/focal-updates,now 2.13.3-7ubuntu5.1 amd64 [installed,automatic]",
             "libappindicator3-1/focal,now 12.10.1+20.04.20200408.1-0ubuntu1 amd64 [installed,automatic]",
             "libappstream4/focal,now 0.12.10-2 amd64 [installed,automatic]",
-            "libapt-pkg6.0/focal-updates,now 2.0.6 amd64 [installed,automatic]",
+            "libapt-pkg6.0/now 2.0.6 amd64 [installed,upgradable to: 2.0.8]",
             "libarchive13/focal-updates,focal-security,now 3.4.0-2ubuntu1.2 amd64 [installed,automatic]",
             "libargon2-1/focal,now 0~20171227-0.2 amd64 [installed,automatic]",
             "libasan5/focal-updates,focal-security,now 9.4.0-1ubuntu1~20.04.1 amd64 [installed,automatic]",
@@ -1876,12 +1741,12 @@
             "libbrotli1/focal-updates,focal-security,now 1.0.7-6ubuntu0.1 amd64 [installed,automatic]",
             "libbsd0/focal,now 0.10.0-1 amd64 [installed,automatic]",
             "libbz2-1.0/focal,now 1.0.8-2 amd64 [installed,automatic]",
-            "libc-bin/focal-updates,focal-security,now 2.31-0ubuntu9.7 amd64 [installed,automatic]",
-            "libc-dev-bin/focal-updates,focal-security,now 2.31-0ubuntu9.7 amd64 [installed,automatic]",
-            "libc6-dbg/focal-updates,focal-security,now 2.31-0ubuntu9.7 amd64 [installed,automatic]",
-            "libc6-dev/focal-updates,focal-security,now 2.31-0ubuntu9.7 amd64 [installed,automatic]",
-            "libc6-i386/focal-updates,focal-security,now 2.31-0ubuntu9.7 amd64 [installed,automatic]",
-            "libc6/focal-updates,focal-security,now 2.31-0ubuntu9.7 amd64 [installed,automatic]",
+            "libc-bin/focal-security,now 2.31-0ubuntu9.7 amd64 [installed,upgradable to: 2.31-0ubuntu9.9]",
+            "libc-dev-bin/focal-security,now 2.31-0ubuntu9.7 amd64 [installed,upgradable to: 2.31-0ubuntu9.9]",
+            "libc6-dbg/focal-security,now 2.31-0ubuntu9.7 amd64 [installed,upgradable to: 2.31-0ubuntu9.9]",
+            "libc6-dev/focal-security,now 2.31-0ubuntu9.7 amd64 [installed,upgradable to: 2.31-0ubuntu9.9]",
+            "libc6-i386/focal-security,now 2.31-0ubuntu9.7 amd64 [installed,upgradable to: 2.31-0ubuntu9.9]",
+            "libc6/focal-security,now 2.31-0ubuntu9.7 amd64 [installed,upgradable to: 2.31-0ubuntu9.9]",
             "libcaca0/focal-updates,focal-security,now 0.99.beta19-2.1ubuntu1.20.04.2 amd64 [installed,automatic]",
             "libcairo-gobject-perl/focal,now 1.005-2 amd64 [installed,automatic]",
             "libcairo-gobject2/focal,now 1.16.0-4ubuntu1 amd64 [installed,automatic]",
@@ -1932,17 +1797,17 @@
             "libctf-nobfd0/focal-updates,focal-security,now 2.34-6ubuntu1.3 amd64 [installed,automatic]",
             "libctf0/focal-updates,focal-security,now 2.34-6ubuntu1.3 amd64 [installed,automatic]",
             "libcue2/focal,now 2.2.1-2 amd64 [installed,automatic]",
-            "libcups2/focal-updates,focal-security,now 2.3.1-9ubuntu1.1 amd64 [installed,automatic]",
+            "libcups2/now 2.3.1-9ubuntu1.1 amd64 [installed,upgradable to: 2.3.1-9ubuntu1.2]",
             "libcupsfilters1/focal,now 1.27.4-1 amd64 [installed,automatic]",
-            "libcupsimage2/focal-updates,focal-security,now 2.3.1-9ubuntu1.1 amd64 [installed,automatic]",
-            "libcurl3-gnutls/now 7.68.0-1ubuntu2.7 amd64 [installed,upgradable to: 7.68.0-1ubuntu2.10]",
-            "libcurl4/focal-updates,focal-security,now 7.68.0-1ubuntu2.10 amd64 [installed,automatic]",
+            "libcupsimage2/now 2.3.1-9ubuntu1.1 amd64 [installed,upgradable to: 2.3.1-9ubuntu1.2]",
+            "libcurl3-gnutls/now 7.68.0-1ubuntu2.7 amd64 [installed,upgradable to: 7.68.0-1ubuntu2.11]",
+            "libcurl4/now 7.68.0-1ubuntu2.10 amd64 [installed,upgradable to: 7.68.0-1ubuntu2.11]",
             "libdaemon0/focal,now 0.14-7 amd64 [installed,automatic]",
             "libdata-dump-perl/focal,focal,now 1.23-1 all [installed,automatic]",
             "libdatrie1/focal,now 0.2.12-3 amd64 [installed,automatic]",
             "libdazzle-1.0-0/focal,now 3.36.0-1 amd64 [installed,automatic]",
             "libdb5.3/focal,now 5.3.28+dfsg1-0.6ubuntu2 amd64 [installed,automatic]",
-            "libdbus-1-3/focal-updates,focal-security,now 1.12.16-2ubuntu2.1 amd64 [installed,automatic]",
+            "libdbus-1-3/now 1.12.16-2ubuntu2.1 amd64 [installed,upgradable to: 1.12.16-2ubuntu2.2]",
             "libdbus-glib-1-2/focal,now 0.110-5fakssync1 amd64 [installed,automatic]",
             "libdbusmenu-glib4/focal,now 16.04.1+18.10.20180917-0ubuntu6 amd64 [installed,automatic]",
             "libdbusmenu-gtk3-4/focal,now 16.04.1+18.10.20180917-0ubuntu6 amd64 [installed,automatic]",
@@ -1956,7 +1821,7 @@
             "libdns-export1109/focal-updates,now 1:9.11.16+dfsg-3~ubuntu1 amd64 [installed,automatic]",
             "libdotconf0/focal,now 1.3-0.3fakesync1 amd64 [installed,automatic]",
             "libdouble-conversion3/focal,now 3.1.5-4ubuntu1 amd64 [installed,automatic]",
-            "libdpkg-perl/focal,focal,now 1.19.7ubuntu3 all [installed,automatic]",
+            "libdpkg-perl/focal,focal,now 1.19.7ubuntu3 all [installed,upgradable to: 1.19.7ubuntu3.2]",
             "libdrm-amdgpu1/focal-updates,focal-security,now 2.4.107-8ubuntu1~20.04.2 amd64 [installed,automatic]",
             "libdrm-common/focal-updates,focal-updates,focal-security,focal-security,now 2.4.107-8ubuntu1~20.04.2 all [installed,automatic]",
             "libdrm-intel1/focal-updates,focal-security,now 2.4.107-8ubuntu1~20.04.2 amd64 [installed,automatic]",
@@ -2123,6 +1988,7 @@
             "libgtk2.0-bin/focal,now 2.24.32-4ubuntu4 amd64 [installed,automatic]",
             "libgtk2.0-common/focal,focal,now 2.24.32-4ubuntu4 all [installed,automatic]",
             "libgtk3-perl/focal,focal,now 0.037-1 all [installed,automatic]",
+            "libgtkd-3-0/focal,now 3.9.0-3build2 amd64 [installed,automatic]",
             "libgtkmm-3.0-1v5/focal,now 3.24.2-1build1 amd64 [installed,automatic]",
             "libgtksourceview-4-0/focal,now 4.6.0-1 amd64 [installed,automatic]",
             "libgtksourceview-4-common/focal,focal,now 4.6.0-1 all [installed,automatic]",
@@ -2182,7 +2048,7 @@
             "libiw30/focal,now 30~pre9-13ubuntu1 amd64 [installed,automatic]",
             "libjack-jackd2-0/focal,now 1.9.12~dfsg-2ubuntu2 amd64 [installed,automatic]",
             "libjansson4/focal,now 2.12-1build1 amd64 [installed,automatic]",
-            "libjavascriptcoregtk-4.0-18/now 2.34.6-0ubuntu0.20.04.1 amd64 [installed,upgradable to: 2.36.0-0ubuntu0.20.04.3]",
+            "libjavascriptcoregtk-4.0-18/now 2.34.6-0ubuntu0.20.04.1 amd64 [installed,upgradable to: 2.36.3-0ubuntu0.20.04.1]",
             "libjbig0/focal,now 2.1-3.1build1 amd64 [installed,automatic]",
             "libjbig2dec0/focal,now 0.18-1ubuntu1 amd64 [installed,automatic]",
             "libjcat1/focal-updates,now 0.1.4-0ubuntu0.20.04.1 amd64 [installed,automatic]",
@@ -2194,11 +2060,12 @@
             "libjuh-java/focal-updates,focal-updates,focal-security,focal-security,now 1:6.4.7-0ubuntu0.20.04.4 all [installed,automatic]",
             "libjurt-java/focal-updates,focal-updates,focal-security,focal-security,now 1:6.4.7-0ubuntu0.20.04.4 all [installed,automatic]",
             "libk5crypto3/focal-updates,focal-security,now 1.17-6ubuntu4.1 amd64 [installed,automatic]",
+            "libkeybinder-3.0-0/focal,now 0.3.2-1ubuntu1 amd64 [installed,automatic]",
             "libkeyutils1/focal,now 1.6-6ubuntu1 amd64 [installed,automatic]",
             "libkf5syntaxhighlighting-data/focal,focal,now 5.68.0-0ubuntu1 all [installed,automatic]",
             "libkf5syntaxhighlighting5/focal,now 5.68.0-0ubuntu1 amd64 [installed,automatic]",
             "libklibc/focal-updates,focal-security,now 2.0.7-1ubuntu5.1 amd64 [installed,automatic]",
-            "libkmod2/focal,now 27-1ubuntu2 amd64 [installed,automatic]",
+            "libkmod2/focal,now 27-1ubuntu2 amd64 [installed,upgradable to: 27-1ubuntu2.1]",
             "libkpathsea6/focal,now 2019.20190605.51237-3build2 amd64 [installed,automatic]",
             "libkrb5-26-heimdal/focal,now 7.7.0+dfsg-1ubuntu1 amd64 [installed,automatic]",
             "libkrb5-3/focal-updates,focal-security,now 1.17-6ubuntu4.1 amd64 [installed,automatic]",
@@ -2208,8 +2075,8 @@
             "liblangtag1/focal,now 0.6.3-1 amd64 [installed,automatic]",
             "liblcms2-2/focal,now 2.9-4 amd64 [installed,automatic]",
             "liblcms2-utils/focal,now 2.9-4 amd64 [installed,automatic]",
-            "libldap-2.4-2/focal-updates,now 2.4.49+dfsg-2ubuntu1.8 amd64 [installed,automatic]",
-            "libldap-common/focal-updates,focal-updates,now 2.4.49+dfsg-2ubuntu1.8 all [installed,automatic]",
+            "libldap-2.4-2/now 2.4.49+dfsg-2ubuntu1.8 amd64 [installed,upgradable to: 2.4.49+dfsg-2ubuntu1.9]",
+            "libldap-common/now 2.4.49+dfsg-2ubuntu1.8 all [installed,upgradable to: 2.4.49+dfsg-2ubuntu1.9]",
             "libldb2/focal-updates,focal-security,now 2:2.2.3-0ubuntu0.20.04.2 amd64 [installed,automatic]",
             "liblirc-client0/focal-updates,now 0.10.1-6.1ubuntu1.1 amd64 [installed,automatic]",
             "libllvm10/focal,now 1:10.0.0-4ubuntu1 amd64 [installed,automatic]",
@@ -2258,7 +2125,7 @@
             "libmtp9/focal,now 1.1.17-3 amd64 [installed,automatic]",
             "libmutter-6-0/focal-updates,now 3.36.9-0ubuntu0.20.04.2 amd64 [installed,automatic]",
             "libmwaw-0.3-3/focal,now 0.3.15-2build1 amd64 [installed,automatic]",
-            "libmysqlclient21/now 8.0.28-0ubuntu0.20.04.3 amd64 [installed,upgradable to: 8.0.29-0ubuntu0.20.04.2]",
+            "libmysqlclient21/now 8.0.28-0ubuntu0.20.04.3 amd64 [installed,upgradable to: 8.0.29-0ubuntu0.20.04.3]",
             "libmythes-1.2-0/focal,now 2:1.2.4-3build1 amd64 [installed,automatic]",
             "libnatpmp1/focal,now 20150609-7build1 amd64 [installed,automatic]",
             "libnautilus-extension1a/focal-updates,now 1:3.36.3-0ubuntu1.20.04.1 amd64 [installed,automatic]",
@@ -2289,8 +2156,8 @@
             "libnpth0/focal,now 1.6-1 amd64 [installed,automatic]",
             "libnspr4/focal,now 2:4.25-1 amd64 [installed,automatic]",
             "libnss-mdns/focal,now 0.14.1-1ubuntu1 amd64 [installed]",
-            "libnss-systemd/focal-updates,now 245.4-4ubuntu3.16 amd64 [installed,automatic]",
-            "libnss3/focal-updates,focal-security,now 2:3.49.1-1ubuntu1.6 amd64 [installed,automatic]",
+            "libnss-systemd/now 245.4-4ubuntu3.16 amd64 [installed,upgradable to: 245.4-4ubuntu3.17]",
+            "libnss3/now 2:3.49.1-1ubuntu1.6 amd64 [installed,upgradable to: 2:3.49.1-1ubuntu1.7]",
             "libntfs-3g883/focal-updates,focal-security,now 1:2017.3.23AR.3-3ubuntu1.1 amd64 [installed,automatic]",
             "libnuma1/focal,now 2.0.12-1 amd64 [installed,automatic]",
             "libobjc-9-dev/focal-updates,focal-security,now 9.4.0-1ubuntu1~20.04.1 amd64 [installed,automatic]",
@@ -2313,7 +2180,7 @@
             "libpam-modules-bin/focal-updates,now 1.3.1-5ubuntu4.3 amd64 [installed,automatic]",
             "libpam-modules/focal-updates,now 1.3.1-5ubuntu4.3 amd64 [installed,automatic]",
             "libpam-runtime/focal-updates,focal-updates,now 1.3.1-5ubuntu4.3 all [installed,automatic]",
-            "libpam-systemd/focal-updates,now 245.4-4ubuntu3.16 amd64 [installed]",
+            "libpam-systemd/now 245.4-4ubuntu3.16 amd64 [installed,upgradable to: 245.4-4ubuntu3.17]",
             "libpam0g/focal-updates,now 1.3.1-5ubuntu4.3 amd64 [installed,automatic]",
             "libpango-1.0-0/focal,now 1.44.7-2ubuntu4 amd64 [installed,automatic]",
             "libpangocairo-1.0-0/focal,now 1.44.7-2ubuntu4 amd64 [installed,automatic]",
@@ -2331,12 +2198,13 @@
             "libpcre2-16-0/focal,now 10.34-7 amd64 [installed,automatic]",
             "libpcre2-32-0/focal,now 10.34-7 amd64 [installed,automatic]",
             "libpcre2-8-0/focal,now 10.34-7 amd64 [installed,automatic]",
-            "libpcre3/focal,now 2:8.39-12build1 amd64 [installed,automatic]",
+            "libpcre3/focal,now 2:8.39-12build1 amd64 [installed,upgradable to: 2:8.39-12ubuntu0.1]",
             "libpcsclite1/focal,now 1.8.26-3 amd64 [installed,automatic]",
             "libpeas-1.0-0/focal,now 1.26.0-2 amd64 [installed,automatic]",
             "libpeas-common/focal,focal,now 1.26.0-2 all [installed,automatic]",
             "libperl5.30/focal-updates,focal-security,now 5.30.0-9ubuntu0.2 amd64 [installed,automatic]",
             "libpfm4/focal,now 4.10.1+git20-g7700f49-2 amd64 [installed,automatic]",
+            "libphobos2-ldc-shared90/focal,now 1:1.20.1-1 amd64 [installed,automatic]",
             "libphonenumber7/focal,now 7.1.0-5ubuntu11 amd64 [installed,automatic]",
             "libpipeline1/focal,now 1.5.2-2build1 amd64 [installed,automatic]",
             "libpixman-1-0/focal,now 0.38.4-0ubuntu1 amd64 [installed,automatic]",
@@ -2363,8 +2231,10 @@
             "libpwquality1/focal,now 1.4.2-1build1 amd64 [installed,automatic]",
             "libpython3-dev/focal,now 3.8.2-0ubuntu2 amd64 [installed,automatic]",
             "libpython3-stdlib/focal,now 3.8.2-0ubuntu2 amd64 [installed,automatic]",
+            "libpython3.10-dev/focal,now 3.10.4-1+focal2 amd64 [installed]",
             "libpython3.10-minimal/focal,now 3.10.4-1+focal2 amd64 [installed,automatic]",
             "libpython3.10-stdlib/focal,now 3.10.4-1+focal2 amd64 [installed,automatic]",
+            "libpython3.10/focal,now 3.10.4-1+focal2 amd64 [installed,automatic]",
             "libpython3.8-dev/focal-updates,focal-security,now 3.8.10-0ubuntu1~20.04.4 amd64 [installed,automatic]",
             "libpython3.8-minimal/focal-updates,focal-security,now 3.8.10-0ubuntu1~20.04.4 amd64 [installed,automatic]",
             "libpython3.8-stdlib/focal-updates,focal-security,now 3.8.10-0ubuntu1~20.04.4 amd64 [installed,automatic]",
@@ -2476,7 +2346,7 @@
             "libspeechd2/focal,now 0.9.1-4 amd64 [installed,automatic]",
             "libspeex1/focal-updates,focal-security,now 1.2~rc1.2-1.1ubuntu1.20.04.1 amd64 [installed,automatic]",
             "libspeexdsp1/focal-updates,focal-security,now 1.2~rc1.2-1.1ubuntu1.20.04.1 amd64 [installed,automatic]",
-            "libsqlite3-0/focal-updates,focal-security,now 3.31.1-4ubuntu0.2 amd64 [installed,automatic]",
+            "libsqlite3-0/now 3.31.1-4ubuntu0.2 amd64 [installed,upgradable to: 3.31.1-4ubuntu0.3]",
             "libss2/focal,now 1.45.5-2ubuntu1 amd64 [installed,automatic]",
             "libssh-4/focal-updates,focal-security,now 0.9.3-2ubuntu2.2 amd64 [installed,automatic]",
             "libssl1.1/now 1.1.1f-1ubuntu2.12 amd64 [installed,upgradable to: 1.1.1f-1ubuntu2.13]",
@@ -2487,7 +2357,7 @@
             "libsuitesparseconfig5/focal,now 1:5.7.1+dfsg-2 amd64 [installed,automatic]",
             "libsynctex2/focal,now 2019.20190605.51237-3build2 amd64 [installed,automatic]",
             "libsysmetrics1/focal,now 1.6.1 amd64 [installed,automatic]",
-            "libsystemd0/focal-updates,now 245.4-4ubuntu3.16 amd64 [installed,automatic]",
+            "libsystemd0/now 245.4-4ubuntu3.16 amd64 [installed,upgradable to: 245.4-4ubuntu3.17]",
             "libtag1v5-vanilla/focal,now 1.11.1+dfsg.1-0.3ubuntu2 amd64 [installed,automatic]",
             "libtag1v5/focal,now 1.11.1+dfsg.1-0.3ubuntu2 amd64 [installed,automatic]",
             "libtalloc2/focal-updates,focal-security,now 2.3.1-0ubuntu0.20.04.1 amd64 [installed,automatic]",
@@ -2503,7 +2373,7 @@
             "libthai0/focal,now 0.1.28-3 amd64 [installed,automatic]",
             "libtheora0/focal,now 1.1.1+dfsg.1-15ubuntu2 amd64 [installed,automatic]",
             "libtie-ixhash-perl/focal,focal,now 1.23-2 all [installed,automatic]",
-            "libtiff5/focal-updates,focal-security,now 4.1.0+git191117-2ubuntu0.20.04.2 amd64 [installed,automatic]",
+            "libtiff5/now 4.1.0+git191117-2ubuntu0.20.04.2 amd64 [installed,upgradable to: 4.1.0+git191117-2ubuntu0.20.04.3]",
             "libtimedate-perl/focal,focal,now 2.3200-1 all [installed,automatic]",
             "libtinfo-dev/focal,now 6.2-0ubuntu2 amd64 [installed,automatic]",
             "libtinfo6/focal,now 6.2-0ubuntu2 amd64 [installed,automatic]",
@@ -2520,7 +2390,7 @@
             "libu2f-udev/focal,focal,now 1.1.10-1 all [installed]",
             "libubsan1/focal-updates,focal-security,now 10.3.0-1ubuntu1~20.04 amd64 [installed,automatic]",
             "libuchardet0/focal,now 0.0.6-3build1 amd64 [installed,automatic]",
-            "libudev1/focal-updates,now 245.4-4ubuntu3.16 amd64 [installed,automatic]",
+            "libudev1/now 245.4-4ubuntu3.16 amd64 [installed,upgradable to: 245.4-4ubuntu3.17]",
             "libudisks2-0/focal-updates,now 2.8.4-1ubuntu2 amd64 [installed,automatic]",
             "libunistring2/focal,now 0.9.10-2 amd64 [installed,automatic]",
             "libunity-protocol-private0/focal,now 7.1.4+19.04.20190319-0ubuntu3 amd64 [installed,automatic]",
@@ -2537,6 +2407,7 @@
             "liburi-perl/focal,focal,now 1.76-2 all [installed,automatic]",
             "libusb-1.0-0/focal,now 2:1.0.23-2build1 amd64 [installed,automatic]",
             "libusbmuxd6/focal,now 2.0.1-2 amd64 [installed,automatic]",
+            "libutempter0/focal,now 1.1.6-4 amd64 [installed,automatic]",
             "libuuid1/focal-updates,focal-security,now 2.34-0.1ubuntu9.3 amd64 [installed,automatic]",
             "libuv1/focal-updates,focal-security,now 1.34.2-1ubuntu1.3 amd64 [installed,automatic]",
             "libv4l-0/focal,now 1.18.0-2build1 amd64 [installed,automatic]",
@@ -2551,6 +2422,7 @@
             "libvpx6/focal,now 1.8.2-1build1 amd64 [installed,automatic]",
             "libvte-2.91-0/focal-updates,now 0.60.3-0ubuntu1~20.04 amd64 [installed,automatic]",
             "libvte-2.91-common/focal-updates,now 0.60.3-0ubuntu1~20.04 amd64 [installed,automatic]",
+            "libvted-3-0/focal,now 3.9.0-3build2 amd64 [installed,automatic]",
             "libvulkan1/focal,now 1.2.131.2-1 amd64 [installed,automatic]",
             "libwacom-bin/focal-updates,now 1.3-2ubuntu3 amd64 [installed,automatic]",
             "libwacom-common/focal-updates,focal-updates,now 1.3-2ubuntu3 all [installed,automatic]",
@@ -2561,7 +2433,7 @@
             "libwayland-egl1/focal,now 1.18.0-1 amd64 [installed,automatic]",
             "libwayland-server0/focal,now 1.18.0-1 amd64 [installed,automatic]",
             "libwbclient0/focal-updates,now 2:4.13.17~dfsg-0ubuntu0.21.04.2 amd64 [installed,automatic]",
-            "libwebkit2gtk-4.0-37/now 2.34.6-0ubuntu0.20.04.1 amd64 [installed,upgradable to: 2.36.0-0ubuntu0.20.04.3]",
+            "libwebkit2gtk-4.0-37/now 2.34.6-0ubuntu0.20.04.1 amd64 [installed,upgradable to: 2.36.3-0ubuntu0.20.04.1]",
             "libwebp6/focal-updates,focal-security,now 0.6.1-2ubuntu0.20.04.1 amd64 [installed,automatic]",
             "libwebpdemux2/focal-updates,focal-security,now 0.6.1-2ubuntu0.20.04.1 amd64 [installed,automatic]",
             "libwebpmux3/focal-updates,focal-security,now 0.6.1-2ubuntu0.20.04.1 amd64 [installed,automatic]",
@@ -2626,7 +2498,7 @@
             "libxml-parser-perl/focal,now 2.46-1 amd64 [installed,automatic]",
             "libxml-twig-perl/focal,focal,now 1:3.50-2 all [installed,automatic]",
             "libxml-xpathengine-perl/focal,focal,now 0.14-1 all [installed,automatic]",
-            "libxml2/focal-updates,focal-security,now 2.9.10+dfsg-5ubuntu0.20.04.2 amd64 [installed,automatic]",
+            "libxml2/now 2.9.10+dfsg-5ubuntu0.20.04.2 amd64 [installed,upgradable to: 2.9.10+dfsg-5ubuntu0.20.04.3]",
             "libxmlb1/focal-updates,now 0.1.15-2ubuntu1~20.04.1 amd64 [installed,automatic]",
             "libxmlsec1-nss/focal,now 1.2.28-2 amd64 [installed,automatic]",
             "libxmlsec1-openssl/focal,now 1.2.28-2 amd64 [installed,automatic]",
@@ -2654,17 +2526,17 @@
             "libz3-dev/focal,now 4.8.7-4build1 amd64 [installed,automatic]",
             "libzstd1/focal-updates,focal-security,now 1.4.4+dfsg-3ubuntu0.1 amd64 [installed,automatic]",
             "linux-base/focal-updates,focal-updates,now 4.5ubuntu3.7 all [installed,automatic]",
-            "linux-firmware/now 1.187.29 all [installed,upgradable to: 1.187.30]",
-            "linux-generic-hwe-20.04/focal-updates,focal-security,now 5.13.0.40.45~20.04.25 amd64 [installed]",
+            "linux-firmware/now 1.187.29 all [installed,upgradable to: 1.187.31]",
+            "linux-generic-hwe-20.04/now 5.13.0.40.45~20.04.25 amd64 [installed,upgradable to: 5.13.0.44.49~20.04.28]",
             "linux-headers-5.13.0-40-generic/focal-updates,focal-security,now 5.13.0-40.45~20.04.1 amd64 [installed,automatic]",
             "linux-headers-5.4.0-26-generic/focal,now 5.4.0-26.30 amd64 [installed,automatic]",
             "linux-headers-5.4.0-26/focal,focal,now 5.4.0-26.30 all [installed,automatic]",
-            "linux-headers-generic-hwe-20.04/focal-updates,focal-security,now 5.13.0.40.45~20.04.25 amd64 [installed,automatic]",
+            "linux-headers-generic-hwe-20.04/now 5.13.0.40.45~20.04.25 amd64 [installed,upgradable to: 5.13.0.44.49~20.04.28]",
             "linux-hwe-5.13-headers-5.13.0-40/focal-updates,focal-updates,focal-security,focal-security,now 5.13.0-40.45~20.04.1 all [installed,automatic]",
             "linux-image-5.13.0-40-generic/focal-updates,focal-security,now 5.13.0-40.45~20.04.1 amd64 [installed,automatic]",
             "linux-image-5.4.0-26-generic/focal,now 5.4.0-26.30 amd64 [installed,automatic]",
-            "linux-image-generic-hwe-20.04/focal-updates,focal-security,now 5.13.0.40.45~20.04.25 amd64 [installed,automatic]",
-            "linux-libc-dev/focal-updates,focal-security,now 5.4.0-109.123 amd64 [installed,automatic]",
+            "linux-image-generic-hwe-20.04/now 5.13.0.40.45~20.04.25 amd64 [installed,upgradable to: 5.13.0.44.49~20.04.28]",
+            "linux-libc-dev/now 5.4.0-109.123 amd64 [installed,upgradable to: 5.4.0-113.127]",
             "linux-modules-5.13.0-40-generic/focal-updates,focal-security,now 5.13.0-40.45~20.04.1 amd64 [installed,automatic]",
             "linux-modules-5.4.0-26-generic/focal,now 5.4.0-26.30 amd64 [installed,automatic]",
             "linux-modules-extra-5.13.0-40-generic/focal-updates,focal-security,now 5.13.0-40.45~20.04.1 amd64 [installed,automatic]",
@@ -2674,8 +2546,8 @@
             "llvm-10-runtime/focal,now 1:10.0.0-4ubuntu1 amd64 [installed,automatic]",
             "llvm-10-tools/focal,now 1:10.0.0-4ubuntu1 amd64 [installed,automatic]",
             "llvm-10/focal,now 1:10.0.0-4ubuntu1 amd64 [installed,automatic]",
-            "locales/focal-updates,focal-updates,focal-security,focal-security,now 2.31-0ubuntu9.7 all [installed]",
-            "login/focal-updates,now 1:4.8.1-1ubuntu5.20.04.1 amd64 [installed,automatic]",
+            "locales/focal-security,focal-security,now 2.31-0ubuntu9.7 all [installed,upgradable to: 2.31-0ubuntu9.9]",
+            "login/now 1:4.8.1-1ubuntu5.20.04.1 amd64 [installed,upgradable to: 1:4.8.1-1ubuntu5.20.04.2]",
             "logrotate/focal,now 3.14.0-4ubuntu3 amd64 [installed]",
             "logsave/focal,now 1.45.5-2ubuntu1 amd64 [installed,automatic]",
             "lp-solve/focal,now 5.5.0.15-4build1 amd64 [installed,automatic]",
@@ -2686,6 +2558,7 @@
             "ltrace/focal,now 0.7.3-6.1ubuntu1 amd64 [installed]",
             "lz4/focal-updates,focal-security,now 1.9.2-2ubuntu0.20.04.1 amd64 [installed,automatic]",
             "make/focal,now 4.2.1-1.2 amd64 [installed,automatic]",
+            "makeself/focal,focal,now 2.4.0-1 all [installed]",
             "man-db/focal,now 2.9.1-1 amd64 [installed]",
             "manpages-dev/focal,focal,now 5.05-1 all [installed,automatic]",
             "manpages/focal,focal,now 5.05-1 all [installed]",
@@ -2727,17 +2600,17 @@
             "open-vm-tools-desktop/focal-updates,now 2:11.3.0-2ubuntu0~ubuntu20.04.2 amd64 [installed]",
             "open-vm-tools/focal-updates,now 2:11.3.0-2ubuntu0~ubuntu20.04.2 amd64 [installed]",
             "openprinting-ppds/focal,focal,now 20200401-1 all [installed]",
-            "openssh-client/focal-updates,now 1:8.2p1-4ubuntu0.4 amd64 [installed]",
+            "openssh-client/now 1:8.2p1-4ubuntu0.4 amd64 [installed,upgradable to: 1:8.2p1-4ubuntu0.5]",
             "openssl/now 1.1.1f-1ubuntu2.12 amd64 [installed,upgradable to: 1.1.1f-1ubuntu2.13]",
             "openvpn/focal-updates,focal-security,now 2.4.7-1ubuntu2.20.04.4 amd64 [installed,automatic]",
-            "orca/focal-updates,focal-updates,now 3.36.2-1ubuntu1~20.04.1 all [installed]",
+            "orca/now 3.36.2-1ubuntu1~20.04.1 all [installed,upgradable to: 3.36.2-1ubuntu1~20.04.2]",
             "os-prober/focal,now 1.74ubuntu2 amd64 [installed]",
             "p11-kit-modules/focal-updates,focal-security,now 0.23.20-1ubuntu0.1 amd64 [installed,automatic]",
             "p11-kit/focal-updates,focal-security,now 0.23.20-1ubuntu0.1 amd64 [installed,automatic]",
             "packagekit-tools/focal-updates,focal-security,now 1.1.13-2ubuntu1.1 amd64 [installed,automatic]",
             "packagekit/focal-updates,focal-security,now 1.1.13-2ubuntu1.1 amd64 [installed]",
             "parted/focal-updates,now 3.3-4ubuntu0.20.04.1 amd64 [installed]",
-            "passwd/focal-updates,now 1:4.8.1-1ubuntu5.20.04.1 amd64 [installed]",
+            "passwd/now 1:4.8.1-1ubuntu5.20.04.1 amd64 [installed,upgradable to: 1:4.8.1-1ubuntu5.20.04.2]",
             "patch/focal,now 2.7.6-6 amd64 [installed,automatic]",
             "pci.ids/focal,focal,now 0.0~2020.03.20-1 all [installed,automatic]",
             "pciutils/focal-updates,now 1:3.6.4-1ubuntu0.20.04.1 amd64 [installed]",
@@ -2801,7 +2674,7 @@
             "python3-debconf/focal,focal,now 1.5.73 all [installed,auto-removable]",
             "python3-debian/focal,focal,now 0.1.36ubuntu1 all [installed,automatic]",
             "python3-defer/focal,focal,now 1.0.6-2.1 all [installed,auto-removable]",
-            "python3-dev/focal,now 3.8.2-0ubuntu2 amd64 [installed,automatic]",
+            "python3-dev/focal,now 3.8.2-0ubuntu2 amd64 [installed]",
             "python3-distro-info/focal,focal,now 0.23ubuntu1 all [installed,auto-removable]",
             "python3-distro/focal,focal,now 1.4.0-1 all [installed,automatic]",
             "python3-distutils/focal-updates,focal-updates,focal-security,focal-security,now 3.8.10-0ubuntu1~20.04 all [installed,automatic]",
@@ -2833,11 +2706,12 @@
             "python3-oauthlib/focal,focal,now 3.1.0-1ubuntu2 all [installed,automatic]",
             "python3-olefile/focal,focal,now 0.46-2 all [installed,automatic]",
             "python3-paramiko/focal-updates,focal-updates,focal-security,focal-security,now 2.6.0-2ubuntu0.1 all [installed,automatic]",
+            "python3-pbr/focal,focal,now 5.4.5-0ubuntu1 all [installed,automatic]",
             "python3-pexpect/focal,focal,now 4.6.0-1build1 all [installed,automatic]",
             "python3-pil/focal-updates,focal-security,now 7.0.0-4ubuntu0.5 amd64 [installed,automatic]",
             "python3-pip/focal-updates,focal-updates,now 20.0.2-5ubuntu1.6 all [installed]",
             "python3-pkg-resources/focal,focal,now 45.2.0-1 all [installed,automatic]",
-            "python3-problem-report/focal-updates,focal-updates,now 2.20.11-0ubuntu27.23 all [installed,auto-removable]",
+            "python3-problem-report/now 2.20.11-0ubuntu27.23 all [installed,upgradable to: 2.20.11-0ubuntu27.24]",
             "python3-protobuf/focal,now 3.6.1.3-2ubuntu5 amd64 [installed,auto-removable]",
             "python3-ptyprocess/focal,focal,now 0.6.0-1ubuntu1 all [installed,automatic]",
             "python3-pyatspi/focal,focal,now 2.36.0-1 all [installed,automatic]",
@@ -2937,12 +2811,12 @@
             "rhythmbox-plugins/focal,now 3.4.4-1ubuntu2 amd64 [installed,automatic]",
             "rhythmbox/focal,now 3.4.4-1ubuntu2 amd64 [installed]",
             "rsync/focal-updates,focal-security,now 3.1.3-8ubuntu0.3 amd64 [installed]",
-            "rsyslog/focal-updates,now 8.2001.0-1ubuntu1.1 amd64 [installed]",
+            "rsyslog/now 8.2001.0-1ubuntu1.1 amd64 [installed,upgradable to: 8.2001.0-1ubuntu1.3]",
             "rtkit/focal,now 0.12-4 amd64 [installed,automatic]",
             "rygel/focal,now 0.38.3-1ubuntu1 amd64 [installed,auto-removable]",
             "samba-libs/focal-updates,now 2:4.13.17~dfsg-0ubuntu0.21.04.2 amd64 [installed,automatic]",
             "sane-utils/focal-updates,now 1.0.29-0ubuntu5.2 amd64 [installed,automatic]",
-            "sbsigntool/focal,now 0.9.2-2ubuntu1 amd64 [installed,automatic]",
+            "sbsigntool/focal,now 0.9.2-2ubuntu1 amd64 [installed,upgradable to: 0.9.2-2ubuntu1.1]",
             "seahorse/focal,now 3.36-1 amd64 [installed]",
             "secureboot-db/focal,now 1.5 amd64 [installed,automatic]",
             "sed/focal,now 4.7-1 amd64 [installed,automatic]",
@@ -2954,7 +2828,7 @@
             "shotwell-common/focal-updates,focal-updates,now 0.30.10-0ubuntu0.1 all [installed,automatic]",
             "shotwell/focal-updates,now 0.30.10-0ubuntu0.1 amd64 [installed]",
             "simple-scan/focal-updates,now 3.36.3-0ubuntu0.20.04.0 amd64 [installed]",
-            "snapd/focal-updates,focal-security,now 2.54.3+20.04.1ubuntu0.2 amd64 [installed]",
+            "snapd/focal-security,now 2.54.3+20.04.1ubuntu0.2 amd64 [installed,upgradable to: 2.54.3+20.04.1ubuntu0.3]",
             "sound-icons/focal,focal,now 0.1-7 all [installed,automatic]",
             "sound-theme-freedesktop/focal,focal,now 0.8-2ubuntu1 all [installed,automatic]",
             "speech-dispatcher-audio-plugins/focal,now 0.9.1-4 amd64 [installed,automatic]",
@@ -2972,18 +2846,20 @@
             "system-config-printer-common/focal-updates,focal-updates,now 1.5.12-0ubuntu1.1 all [installed,automatic]",
             "system-config-printer-udev/focal-updates,now 1.5.12-0ubuntu1.1 amd64 [installed,automatic]",
             "system-config-printer/focal-updates,focal-updates,now 1.5.12-0ubuntu1.1 all [installed]",
-            "systemd-sysv/focal-updates,now 245.4-4ubuntu3.16 amd64 [installed,automatic]",
-            "systemd-timesyncd/focal-updates,now 245.4-4ubuntu3.16 amd64 [installed,automatic]",
-            "systemd/focal-updates,now 245.4-4ubuntu3.16 amd64 [installed,automatic]",
+            "systemd-sysv/now 245.4-4ubuntu3.16 amd64 [installed,upgradable to: 245.4-4ubuntu3.17]",
+            "systemd-timesyncd/now 245.4-4ubuntu3.16 amd64 [installed,upgradable to: 245.4-4ubuntu3.17]",
+            "systemd/now 245.4-4ubuntu3.16 amd64 [installed,upgradable to: 245.4-4ubuntu3.17]",
             "sysvinit-utils/focal,now 2.96-2.1ubuntu1 amd64 [installed,automatic]",
             "tar/focal-updates,focal-security,now 1.30+dfsg-7ubuntu0.20.04.2 amd64 [installed,automatic]",
             "tcpdump/focal-updates,focal-security,now 4.9.3-4ubuntu0.1 amd64 [installed]",
             "telnet/focal,now 0.17-41.2build1 amd64 [installed]",
             "thermald/focal-updates,now 1.9.1-1ubuntu0.6 amd64 [installed,automatic]",
-            "thunderbird-gnome-support/now 1:91.7.0+build2-0ubuntu0.20.04.1 amd64 [installed,upgradable to: 1:91.8.1+build1-0ubuntu0.20.04.1]",
-            "thunderbird-locale-en-us/now 1:91.7.0+build2-0ubuntu0.20.04.1 all [installed,upgradable to: 1:91.8.1+build1-0ubuntu0.20.04.1]",
-            "thunderbird-locale-en/now 1:91.7.0+build2-0ubuntu0.20.04.1 amd64 [installed,upgradable to: 1:91.8.1+build1-0ubuntu0.20.04.1]",
-            "thunderbird/now 1:91.7.0+build2-0ubuntu0.20.04.1 amd64 [installed,upgradable to: 1:91.8.1+build1-0ubuntu0.20.04.1]",
+            "thunderbird-gnome-support/now 1:91.7.0+build2-0ubuntu0.20.04.1 amd64 [installed,upgradable to: 1:91.9.1+build1-0ubuntu0.20.04.1]",
+            "thunderbird-locale-en-us/now 1:91.7.0+build2-0ubuntu0.20.04.1 all [installed,upgradable to: 1:91.9.1+build1-0ubuntu0.20.04.1]",
+            "thunderbird-locale-en/now 1:91.7.0+build2-0ubuntu0.20.04.1 amd64 [installed,upgradable to: 1:91.9.1+build1-0ubuntu0.20.04.1]",
+            "thunderbird/now 1:91.7.0+build2-0ubuntu0.20.04.1 amd64 [installed,upgradable to: 1:91.9.1+build1-0ubuntu0.20.04.1]",
+            "tilix-common/focal,focal,now 1.9.3-4build3 all [installed,automatic]",
+            "tilix/focal,now 1.9.3-4build3 amd64 [installed]",
             "time/focal,now 1.7-25.1build1 amd64 [installed]",
             "totem-common/focal,focal,now 3.34.1-2ubuntu2 all [installed,automatic]",
             "totem-plugins/focal,now 3.34.1-2ubuntu2 amd64 [installed,automatic]",
@@ -3004,7 +2880,7 @@
             "ubuntu-wallpapers-focal/focal,focal,now 20.04.2-0ubuntu1 all [installed,automatic]",
             "ubuntu-wallpapers/focal,focal,now 20.04.2-0ubuntu1 all [installed]",
             "ucf/focal,focal,now 3.0038+nmu1 all [installed,automatic]",
-            "udev/focal-updates,now 245.4-4ubuntu3.16 amd64 [installed]",
+            "udev/now 245.4-4ubuntu3.16 amd64 [installed,upgradable to: 245.4-4ubuntu3.17]",
             "udisks2/focal-updates,now 2.8.4-1ubuntu2 amd64 [installed,automatic]",
             "ufw/focal-updates,focal-updates,now 0.36-6ubuntu1 all [installed]",
             "uno-libs-private/focal-updates,focal-security,now 1:6.4.7-0ubuntu0.20.04.4 amd64 [installed,automatic]",
@@ -3022,7 +2898,9 @@
             "util-linux/focal-updates,focal-security,now 2.34-0.1ubuntu9.3 amd64 [installed,automatic]",
             "uuid-runtime/focal-updates,focal-security,now 2.34-0.1ubuntu9.3 amd64 [installed]",
             "vim-common/focal-updates,focal-updates,focal-security,focal-security,now 2:8.1.2269-1ubuntu5.7 all [installed,automatic]",
+            "vim-runtime/focal-updates,focal-updates,focal-security,focal-security,now 2:8.1.2269-1ubuntu5.7 all [installed,automatic]",
             "vim-tiny/focal-updates,focal-security,now 2:8.1.2269-1ubuntu5.7 amd64 [installed]",
+            "vim/focal-updates,focal-security,now 2:8.1.2269-1ubuntu5.7 amd64 [installed]",
             "vino/focal-updates,focal-security,now 3.22.0-5ubuntu2.2 amd64 [installed]",
             "wamerican/focal,focal,now 2018.04.16-1 all [installed]",
             "wbritish/focal,focal,now 2018.04.16-1 all [installed]",
@@ -3092,12 +2970,114 @@
             "zlib1g/focal-updates,focal-security,now 1:1.2.11.dfsg-2ubuntu1.3 amd64 [installed,automatic]",
             ""
         ],
-        "Count": 1739
+        "Count": 1754
     },
     "FirewallInfo": {
         "List": [
+            "-P INPUT DROP",
+            "-P FORWARD DROP",
+            "-P OUTPUT ACCEPT",
+            "-N ufw-after-forward",
+            "-N ufw-after-input",
+            "-N ufw-after-logging-forward",
+            "-N ufw-after-logging-input",
+            "-N ufw-after-logging-output",
+            "-N ufw-after-output",
+            "-N ufw-before-forward",
+            "-N ufw-before-input",
+            "-N ufw-before-logging-forward",
+            "-N ufw-before-logging-input",
+            "-N ufw-before-logging-output",
+            "-N ufw-before-output",
+            "-N ufw-logging-allow",
+            "-N ufw-logging-deny",
+            "-N ufw-not-local",
+            "-N ufw-reject-forward",
+            "-N ufw-reject-input",
+            "-N ufw-reject-output",
+            "-N ufw-skip-to-policy-forward",
+            "-N ufw-skip-to-policy-input",
+            "-N ufw-skip-to-policy-output",
+            "-N ufw-track-forward",
+            "-N ufw-track-input",
+            "-N ufw-track-output",
+            "-N ufw-user-forward",
+            "-N ufw-user-input",
+            "-N ufw-user-limit",
+            "-N ufw-user-limit-accept",
+            "-N ufw-user-logging-forward",
+            "-N ufw-user-logging-input",
+            "-N ufw-user-logging-output",
+            "-N ufw-user-output",
+            "-A INPUT -j ufw-before-logging-input",
+            "-A INPUT -j ufw-before-input",
+            "-A INPUT -j ufw-after-input",
+            "-A INPUT -j ufw-after-logging-input",
+            "-A INPUT -j ufw-reject-input",
+            "-A INPUT -j ufw-track-input",
+            "-A FORWARD -j ufw-before-logging-forward",
+            "-A FORWARD -j ufw-before-forward",
+            "-A FORWARD -j ufw-after-forward",
+            "-A FORWARD -j ufw-after-logging-forward",
+            "-A FORWARD -j ufw-reject-forward",
+            "-A FORWARD -j ufw-track-forward",
+            "-A OUTPUT -j ufw-before-logging-output",
+            "-A OUTPUT -j ufw-before-output",
+            "-A OUTPUT -j ufw-after-output",
+            "-A OUTPUT -j ufw-after-logging-output",
+            "-A OUTPUT -j ufw-reject-output",
+            "-A OUTPUT -j ufw-track-output",
+            "-A ufw-after-input -p udp -m udp --dport 137 -j ufw-skip-to-policy-input",
+            "-A ufw-after-input -p udp -m udp --dport 138 -j ufw-skip-to-policy-input",
+            "-A ufw-after-input -p tcp -m tcp --dport 139 -j ufw-skip-to-policy-input",
+            "-A ufw-after-input -p tcp -m tcp --dport 445 -j ufw-skip-to-policy-input",
+            "-A ufw-after-input -p udp -m udp --dport 67 -j ufw-skip-to-policy-input",
+            "-A ufw-after-input -p udp -m udp --dport 68 -j ufw-skip-to-policy-input",
+            "-A ufw-after-input -m addrtype --dst-type BROADCAST -j ufw-skip-to-policy-input",
+            "-A ufw-after-logging-forward -m limit --limit 3/min --limit-burst 10 -j LOG --log-prefix \"[UFW BLOCK] \"",
+            "-A ufw-after-logging-input -m limit --limit 3/min --limit-burst 10 -j LOG --log-prefix \"[UFW BLOCK] \"",
+            "-A ufw-before-forward -m conntrack --ctstate RELATED,ESTABLISHED -j ACCEPT",
+            "-A ufw-before-forward -p icmp -m icmp --icmp-type 3 -j ACCEPT",
+            "-A ufw-before-forward -p icmp -m icmp --icmp-type 11 -j ACCEPT",
+            "-A ufw-before-forward -p icmp -m icmp --icmp-type 12 -j ACCEPT",
+            "-A ufw-before-forward -p icmp -m icmp --icmp-type 8 -j ACCEPT",
+            "-A ufw-before-forward -j ufw-user-forward",
+            "-A ufw-before-input -i lo -j ACCEPT",
+            "-A ufw-before-input -m conntrack --ctstate RELATED,ESTABLISHED -j ACCEPT",
+            "-A ufw-before-input -m conntrack --ctstate INVALID -j ufw-logging-deny",
+            "-A ufw-before-input -m conntrack --ctstate INVALID -j DROP",
+            "-A ufw-before-input -p icmp -m icmp --icmp-type 3 -j ACCEPT",
+            "-A ufw-before-input -p icmp -m icmp --icmp-type 11 -j ACCEPT",
+            "-A ufw-before-input -p icmp -m icmp --icmp-type 12 -j ACCEPT",
+            "-A ufw-before-input -p icmp -m icmp --icmp-type 8 -j ACCEPT",
+            "-A ufw-before-input -p udp -m udp --sport 67 --dport 68 -j ACCEPT",
+            "-A ufw-before-input -j ufw-not-local",
+            "-A ufw-before-input -d 224.0.0.251/32 -p udp -m udp --dport 5353 -j ACCEPT",
+            "-A ufw-before-input -d 239.255.255.250/32 -p udp -m udp --dport 1900 -j ACCEPT",
+            "-A ufw-before-input -j ufw-user-input",
+            "-A ufw-before-output -o lo -j ACCEPT",
+            "-A ufw-before-output -m conntrack --ctstate RELATED,ESTABLISHED -j ACCEPT",
+            "-A ufw-before-output -j ufw-user-output",
+            "-A ufw-logging-allow -m limit --limit 3/min --limit-burst 10 -j LOG --log-prefix \"[UFW ALLOW] \"",
+            "-A ufw-logging-deny -m conntrack --ctstate INVALID -m limit --limit 3/min --limit-burst 10 -j RETURN",
+            "-A ufw-logging-deny -m limit --limit 3/min --limit-burst 10 -j LOG --log-prefix \"[UFW BLOCK] \"",
+            "-A ufw-not-local -m addrtype --dst-type LOCAL -j RETURN",
+            "-A ufw-not-local -m addrtype --dst-type MULTICAST -j RETURN",
+            "-A ufw-not-local -m addrtype --dst-type BROADCAST -j RETURN",
+            "-A ufw-not-local -m limit --limit 3/min --limit-burst 10 -j ufw-logging-deny",
+            "-A ufw-not-local -j DROP",
+            "-A ufw-skip-to-policy-forward -j DROP",
+            "-A ufw-skip-to-policy-input -j DROP",
+            "-A ufw-skip-to-policy-output -j ACCEPT",
+            "-A ufw-track-output -p tcp -m conntrack --ctstate NEW -j ACCEPT",
+            "-A ufw-track-output -p udp -m conntrack --ctstate NEW -j ACCEPT",
+            "-A ufw-user-input -p tcp -m tcp --dport 22 -j ACCEPT",
+            "-A ufw-user-input -p udp -m udp --dport 22 -j ACCEPT",
+            "-A ufw-user-limit -m limit --limit 3/min -j LOG --log-prefix \"[UFW LIMIT BLOCK] \"",
+            "-A ufw-user-limit -j REJECT --reject-with icmp-port-unreachable",
+            "-A ufw-user-limit-accept -j ACCEPT",
             ""
         ],
-        "Count": 1
+        "Count": 103
     }
 }
